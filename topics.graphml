@@ -1,0 +1,2698 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+  <key id="k0" for="node" attr.name="label" attr.type="string" />
+  <key id="k1" for="node" attr.name="index" attr.type="int" />
+  <key id="k2" for="node" attr.name="depth_hint" attr.type="int" />
+  <key id="k3" for="node" attr.name="top_domain" attr.type="string" />
+  <key id="k4" for="node" attr.name="terminal" attr.type="boolean" />
+  <key id="k5" for="edge" attr.name="relation" attr.type="string" />
+  <key id="k6" for="edge" attr.name="provenance" attr.type="string" />
+  <graph id="topics" edgedefault="directed">
+    <node id="topic_computational_mathematics">
+      <data key="k0">Computational mathematics</data>
+      <data key="k1">0</data>
+      <data key="k2">0</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_numerical_analysis">
+      <data key="k0">Numerical analysis</data>
+      <data key="k1">1</data>
+      <data key="k2">1</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_inverse_problems">
+      <data key="k0">inverse problems</data>
+      <data key="k1">2</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bayesian_inverse_problems">
+      <data key="k0">Bayesian inverse problems</data>
+      <data key="k1">3</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bayesian_level_set_method">
+      <data key="k0">Bayesian level set method</data>
+      <data key="k1">4</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_piecewise_constant_reconstructions">
+      <data key="k0">piecewise-constant reconstructions</data>
+      <data key="k1">5</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_markov_chain_monte_carlo_for_inverse_problems">
+      <data key="k0">Markov chain Monte Carlo for inverse problems</data>
+      <data key="k1">6</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_uncertainty_quantification">
+      <data key="k0">uncertainty quantification</data>
+      <data key="k1">7</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_likelihood_free_inference">
+      <data key="k0">likelihood-free inference</data>
+      <data key="k1">8</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_expected_information_gain">
+      <data key="k0">expected information gain</data>
+      <data key="k1">9</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_measure_transport">
+      <data key="k0">measure transport</data>
+      <data key="k1">10</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_manufacturing_variability">
+      <data key="k0">manufacturing variability</data>
+      <data key="k1">11</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_transonic_airfoil_manufacturing_error">
+      <data key="k0">transonic airfoil manufacturing error</data>
+      <data key="k1">12</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_compressor_blade_geometric_variability">
+      <data key="k0">compressor blade geometric variability</data>
+      <data key="k1">13</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_multidisciplinary_uncertainty">
+      <data key="k0">multidisciplinary uncertainty</data>
+      <data key="k1">14</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_satellite_system_design">
+      <data key="k0">satellite system design</data>
+      <data key="k1">15</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_hypersonic_propulsion_uncertainty">
+      <data key="k0">hypersonic propulsion uncertainty</data>
+      <data key="k1">16</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_hyshot_ii_scramjet">
+      <data key="k0">HyShot II scramjet</data>
+      <data key="k1">17</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_interface_tracking_methods">
+      <data key="k0">interface-tracking methods</data>
+      <data key="k1">18</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_level_set_methods">
+      <data key="k0">level set methods</data>
+      <data key="k1">19</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_hamilton_jacobi_equations">
+      <data key="k0">Hamilton-Jacobi equations</data>
+      <data key="k1">20</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_propagating_interfaces">
+      <data key="k0">propagating interfaces</data>
+      <data key="k1">21</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_fluid_interfaces">
+      <data key="k0">fluid interfaces</data>
+      <data key="k1">22</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_fast_marching_methods">
+      <data key="k0">fast marching methods</data>
+      <data key="k1">23</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_free_boundary_formulations">
+      <data key="k0">free-boundary formulations</data>
+      <data key="k1">24</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_optimization">
+      <data key="k0">Optimization</data>
+      <data key="k1">25</data>
+      <data key="k2">1</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bayesian_optimization">
+      <data key="k0">Bayesian optimization</data>
+      <data key="k1">26</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_foundational_formulations">
+      <data key="k0">foundational formulations</data>
+      <data key="k1">27</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bayesian_methods_for_seeking_the_extremum">
+      <data key="k0">Bayesian methods for seeking the extremum</data>
+      <data key="k1">28</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_efficient_global_optimization">
+      <data key="k0">efficient global optimization</data>
+      <data key="k1">29</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_tutorial_bayesian_optimization">
+      <data key="k0">tutorial Bayesian optimization</data>
+      <data key="k1">30</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_gaussian_process_bayesian_optimization">
+      <data key="k0">Gaussian-process Bayesian optimization</data>
+      <data key="k1">31</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_practical_bayesian_optimization_for_hyperparameter_tuning">
+      <data key="k0">practical Bayesian optimization for hyperparameter tuning</data>
+      <data key="k1">32</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_adaptive_dimensionality_reduction_for_sequential_optimization">
+      <data key="k0">adaptive dimensionality reduction for sequential optimization</data>
+      <data key="k1">33</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_acquisition_and_value_of_information_methods">
+      <data key="k0">acquisition and value-of-information methods</data>
+      <data key="k1">34</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_knowledge_gradient_methods">
+      <data key="k0">knowledge-gradient methods</data>
+      <data key="k1">35</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_exploration_exploitation_tradeoffs">
+      <data key="k0">exploration-exploitation tradeoffs</data>
+      <data key="k1">36</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_batch_and_parallel_bayesian_optimization">
+      <data key="k0">batch and parallel Bayesian optimization</data>
+      <data key="k1">37</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_batch_bayesian_optimization">
+      <data key="k0">batch Bayesian optimization</data>
+      <data key="k1">38</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_hybrid_batch_bayesian_optimization">
+      <data key="k0">hybrid batch Bayesian optimization</data>
+      <data key="k1">39</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_multi_objective_bayesian_optimization">
+      <data key="k0">multi-objective Bayesian optimization</data>
+      <data key="k1">40</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_nested_subspace_bayesian_optimization">
+      <data key="k0">nested subspace Bayesian optimization</data>
+      <data key="k1">41</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_high_dimensional_bayesian_optimization">
+      <data key="k0">high-dimensional Bayesian optimization</data>
+      <data key="k1">42</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_design_optimization">
+      <data key="k0">design optimization</data>
+      <data key="k1">43</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_decision_focused_optimization">
+      <data key="k0">decision-focused optimization</data>
+      <data key="k1">44</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_exact_characterization_for_linear_optimization">
+      <data key="k0">exact characterization for linear optimization</data>
+      <data key="k1">45</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_aerodynamic_shape_optimization">
+      <data key="k0">aerodynamic shape optimization</data>
+      <data key="k1">46</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_shape_optimization">
+      <data key="k0">shape optimization</data>
+      <data key="k1">47</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_variational_methods">
+      <data key="k0">variational methods</data>
+      <data key="k1">48</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_calculus_of_variations">
+      <data key="k0">calculus of variations</data>
+      <data key="k1">49</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_euler_equations">
+      <data key="k0">Euler equations</data>
+      <data key="k1">50</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_model_reduction_and_surrogate_modeling">
+      <data key="k0">Model reduction and surrogate modeling</data>
+      <data key="k1">51</data>
+      <data key="k2">1</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_active_subspaces">
+      <data key="k0">active subspaces</data>
+      <data key="k1">52</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_theory_and_computation">
+      <data key="k0">theory and computation</data>
+      <data key="k1">53</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_active_subspace_methods_for_kriging_surfaces">
+      <data key="k0">active subspace methods for kriging surfaces</data>
+      <data key="k1">54</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_computing_active_subspaces_with_monte_carlo">
+      <data key="k0">computing active subspaces with Monte Carlo</data>
+      <data key="k1">55</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_low_dimensional_structure">
+      <data key="k0">low-dimensional structure</data>
+      <data key="k1">56</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_sequential_learning_of_active_subspaces">
+      <data key="k0">sequential learning of active subspaces</data>
+      <data key="k1">57</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_adaptive_active_subspaces">
+      <data key="k0">adaptive active subspaces</data>
+      <data key="k1">58</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_one_dimensional_active_subspaces">
+      <data key="k0">one-dimensional active subspaces</data>
+      <data key="k1">59</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_engineering_applications">
+      <data key="k0">engineering applications</data>
+      <data key="k1">60</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_active_subspaces_for_shape_optimization">
+      <data key="k0">active subspaces for shape optimization</data>
+      <data key="k1">61</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_active_subspace_materials_design">
+      <data key="k0">active-subspace materials design</data>
+      <data key="k1">62</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_transonic_wing_design">
+      <data key="k0">transonic wing design</data>
+      <data key="k1">63</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_satellite_uncertainty_quantification">
+      <data key="k0">satellite uncertainty quantification</data>
+      <data key="k1">64</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_scramjet_uncertainty_quantification">
+      <data key="k0">scramjet uncertainty quantification</data>
+      <data key="k1">65</data>
+      <data key="k2">4</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_projection_based_model_reduction">
+      <data key="k0">projection-based model reduction</data>
+      <data key="k1">66</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_parametric_dynamical_systems">
+      <data key="k0">parametric dynamical systems</data>
+      <data key="k1">67</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_petrov_galerkin_projection">
+      <data key="k0">Petrov-Galerkin projection</data>
+      <data key="k1">68</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_krylov_subspace_methods">
+      <data key="k0">Krylov subspace methods</data>
+      <data key="k1">69</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_interpolation">
+      <data key="k0">interpolation</data>
+      <data key="k1">70</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_proper_orthogonal_decomposition">
+      <data key="k0">proper orthogonal decomposition</data>
+      <data key="k1">71</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_balanced_truncation">
+      <data key="k0">balanced truncation</data>
+      <data key="k1">72</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_greedy_algorithms">
+      <data key="k0">greedy algorithms</data>
+      <data key="k1">73</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_surrogate_models">
+      <data key="k0">surrogate models</data>
+      <data key="k1">74</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_kriging">
+      <data key="k0">kriging</data>
+      <data key="k1">75</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_gaussian_processes">
+      <data key="k0">Gaussian processes</data>
+      <data key="k1">76</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_response_surfaces">
+      <data key="k0">response surfaces</data>
+      <data key="k1">77</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_sensitivity_analysis">
+      <data key="k0">sensitivity analysis</data>
+      <data key="k1">78</data>
+      <data key="k2">2</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_variance_based_sensitivity_analysis">
+      <data key="k0">variance-based sensitivity analysis</data>
+      <data key="k1">79</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_factor_prioritization">
+      <data key="k0">factor prioritization</data>
+      <data key="k1">80</data>
+      <data key="k2">3</data>
+      <data key="k3">Computational mathematics</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_machine_learning_and_ai">
+      <data key="k0">Machine learning and AI</data>
+      <data key="k1">81</data>
+      <data key="k2">0</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_machine_learning_methods">
+      <data key="k0">machine learning methods</data>
+      <data key="k1">82</data>
+      <data key="k2">1</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_generative_modeling">
+      <data key="k0">generative modeling</data>
+      <data key="k1">83</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_variational_autoencoders">
+      <data key="k0">variational autoencoders</data>
+      <data key="k1">84</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_uncertainty_guided_fine_tuning_for_molecular_design">
+      <data key="k0">uncertainty-guided fine-tuning for molecular design</data>
+      <data key="k1">85</data>
+      <data key="k2">4</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_diffusion_models">
+      <data key="k0">diffusion models</data>
+      <data key="k1">86</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_representation_learning">
+      <data key="k0">representation learning</data>
+      <data key="k1">87</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_neural_computation">
+      <data key="k0">neural computation</data>
+      <data key="k1">88</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_backpropagation_complexity">
+      <data key="k0">backpropagation complexity</data>
+      <data key="k1">89</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_tropical_neural_networks">
+      <data key="k0">tropical neural networks</data>
+      <data key="k1">90</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_scientific_machine_learning">
+      <data key="k0">scientific machine learning</data>
+      <data key="k1">91</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_multimodal_learning">
+      <data key="k0">multimodal learning</data>
+      <data key="k1">92</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_foundation_models_and_agents">
+      <data key="k0">foundation models and agents</data>
+      <data key="k1">93</data>
+      <data key="k2">1</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_foundation_models_for_science">
+      <data key="k0">foundation models for science</data>
+      <data key="k1">94</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_foundation_models_for_materials_science">
+      <data key="k0">foundation models for materials science</data>
+      <data key="k1">95</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_foundation_models_for_materials_discovery">
+      <data key="k0">foundation models for materials discovery</data>
+      <data key="k1">96</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_large_language_models">
+      <data key="k0">large language models</data>
+      <data key="k1">97</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_abstract_reasoning_in_large_language_models">
+      <data key="k0">abstract reasoning in large language models</data>
+      <data key="k1">98</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_long_chain_of_thought">
+      <data key="k0">long chain-of-thought</data>
+      <data key="k1">99</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_chain_of_thought_theory">
+      <data key="k0">chain-of-thought theory</data>
+      <data key="k1">100</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_autonomous_agents">
+      <data key="k0">autonomous agents</data>
+      <data key="k1">101</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_science_exocortex">
+      <data key="k0">science exocortex</data>
+      <data key="k1">102</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_self_learning_from_search_traces">
+      <data key="k0">self-learning from search traces</data>
+      <data key="k1">103</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_vision_language_model_agents">
+      <data key="k0">vision-language-model agents</data>
+      <data key="k1">104</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_reflective_monte_carlo_tree_search">
+      <data key="k0">reflective Monte Carlo tree search</data>
+      <data key="k1">105</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_reasoning_and_structured_inference">
+      <data key="k0">reasoning and structured inference</data>
+      <data key="k1">106</data>
+      <data key="k2">1</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_automated_reasoning">
+      <data key="k0">automated reasoning</data>
+      <data key="k1">107</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bucket_elimination">
+      <data key="k0">bucket elimination</data>
+      <data key="k1">108</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_theorem_proving">
+      <data key="k0">theorem proving</data>
+      <data key="k1">109</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_exact_inference_in_belief_networks">
+      <data key="k0">exact inference in belief networks</data>
+      <data key="k1">110</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_exact_inference_in_constraint_networks">
+      <data key="k0">exact inference in constraint networks</data>
+      <data key="k1">111</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_junction_tree_style_decompositions">
+      <data key="k0">junction-tree style decompositions</data>
+      <data key="k1">112</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_symbolic_mechanisms">
+      <data key="k0">symbolic mechanisms</data>
+      <data key="k1">113</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_probabilistic_reasoning">
+      <data key="k0">probabilistic reasoning</data>
+      <data key="k1">114</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_graphical_model_inference">
+      <data key="k0">graphical-model inference</data>
+      <data key="k1">115</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_parallelization_of_sequential_computation">
+      <data key="k0">parallelization of sequential computation</data>
+      <data key="k1">116</data>
+      <data key="k2">1</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_sequence_length_parallelism">
+      <data key="k0">sequence-length parallelism</data>
+      <data key="k1">117</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_parallel_sequence_models">
+      <data key="k0">parallel sequence models</data>
+      <data key="k1">118</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_parallelizing_non_linear_sequential_models">
+      <data key="k0">parallelizing non-linear sequential models</data>
+      <data key="k1">119</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_parallel_neural_operations">
+      <data key="k0">parallel neural operations</data>
+      <data key="k1">120</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_deeppcr">
+      <data key="k0">DeepPCR</data>
+      <data key="k1">121</data>
+      <data key="k2">3</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_distributed_and_parallel_scientific_computing">
+      <data key="k0">distributed and parallel scientific computing</data>
+      <data key="k1">122</data>
+      <data key="k2">2</data>
+      <data key="k3">Machine learning and AI</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_sequential_decision_making">
+      <data key="k0">Sequential decision making</data>
+      <data key="k1">123</data>
+      <data key="k2">0</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_reinforcement_learning">
+      <data key="k0">reinforcement learning</data>
+      <data key="k1">124</data>
+      <data key="k2">1</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_dynamic_programming">
+      <data key="k0">dynamic programming</data>
+      <data key="k1">125</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_model_based_reinforcement_learning">
+      <data key="k0">model-based reinforcement learning</data>
+      <data key="k1">126</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_planning_under_uncertainty">
+      <data key="k0">planning under uncertainty</data>
+      <data key="k1">127</data>
+      <data key="k2">1</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_monte_carlo_tree_search">
+      <data key="k0">Monte Carlo tree search</data>
+      <data key="k1">128</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_core_planning_papers">
+      <data key="k0">core planning papers</data>
+      <data key="k1">129</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bandit_based_monte_carlo_planning">
+      <data key="k0">bandit based Monte-Carlo planning</data>
+      <data key="k1">130</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_bayesian_optimized_monte_carlo_planning">
+      <data key="k0">Bayesian optimized Monte Carlo planning</data>
+      <data key="k1">131</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_bandit_foundations">
+      <data key="k0">bandit foundations</data>
+      <data key="k1">132</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bandit_algorithms_for_tree_search">
+      <data key="k0">bandit algorithms for tree search</data>
+      <data key="k1">133</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_finite_time_analysis_of_the_multiarmed_bandit_problem">
+      <data key="k0">finite-time analysis of the multiarmed bandit problem</data>
+      <data key="k1">134</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_multi_armed_bandits_with_episode_context">
+      <data key="k0">multi-armed bandits with episode context</data>
+      <data key="k1">135</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_survey_structure">
+      <data key="k0">survey structure</data>
+      <data key="k1">136</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_bandit_based_methods">
+      <data key="k0">bandit-based methods</data>
+      <data key="k1">137</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_game_search">
+      <data key="k0">game search</data>
+      <data key="k1">138</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_computer_go">
+      <data key="k0">computer Go</data>
+      <data key="k1">139</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_upper_confidence_bounds">
+      <data key="k0">upper confidence bounds</data>
+      <data key="k1">140</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_upper_confidence_bounds_for_trees">
+      <data key="k0">upper confidence bounds for trees</data>
+      <data key="k1">141</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_uct">
+      <data key="k0">UCT</data>
+      <data key="k1">142</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_exploration_strategies">
+      <data key="k0">exploration strategies</data>
+      <data key="k1">143</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_boltzmann_exploration">
+      <data key="k0">Boltzmann exploration</data>
+      <data key="k1">144</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_progressive_bias">
+      <data key="k0">progressive bias</data>
+      <data key="k1">145</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_progressive_unpruning">
+      <data key="k0">progressive unpruning</data>
+      <data key="k1">146</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_pure_exploration_in_batch_settings">
+      <data key="k0">pure exploration in batch settings</data>
+      <data key="k1">147</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_abstraction_in_search">
+      <data key="k0">abstraction in search</data>
+      <data key="k1">148</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_iteratively_refining_state_abstractions">
+      <data key="k0">iteratively refining state abstractions</data>
+      <data key="k1">149</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_probability_tree_state_abstraction">
+      <data key="k0">probability tree state abstraction</data>
+      <data key="k1">150</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_robustness_and_estimation">
+      <data key="k0">robustness and estimation</data>
+      <data key="k1">151</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_doubly_robust_mcts">
+      <data key="k0">doubly robust MCTS</data>
+      <data key="k1">152</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_information_reuse">
+      <data key="k0">information reuse</data>
+      <data key="k1">153</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_hidden_information_games">
+      <data key="k0">hidden-information games</data>
+      <data key="k1">154</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_information_capture_and_reuse">
+      <data key="k0">information capture and reuse</data>
+      <data key="k1">155</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_action_space_structure">
+      <data key="k0">action-space structure</data>
+      <data key="k1">156</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_continuous_action_spaces_with_execution_uncertainty">
+      <data key="k0">continuous action spaces with execution uncertainty</data>
+      <data key="k1">157</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_voronoi_optimistic_optimization">
+      <data key="k0">Voronoi optimistic optimization</data>
+      <data key="k1">158</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_proof_oriented_search">
+      <data key="k0">proof-oriented search</data>
+      <data key="k1">159</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_proof_number_based_mcts">
+      <data key="k0">proof-number-based MCTS</data>
+      <data key="k1">160</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_embodied_planning">
+      <data key="k0">embodied planning</data>
+      <data key="k1">161</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_parallel_mcts_with_batched_rigid_body_simulations">
+      <data key="k0">parallel MCTS with batched rigid-body simulations</data>
+      <data key="k1">162</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_survey_and_synthesis">
+      <data key="k0">survey and synthesis</data>
+      <data key="k1">163</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_survey_of_monte_carlo_tree_search_methods">
+      <data key="k0">survey of Monte Carlo tree search methods</data>
+      <data key="k1">164</data>
+      <data key="k2">4</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_exploratory_learning">
+      <data key="k0">exploratory learning</data>
+      <data key="k1">165</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_test_time_search_for_agents">
+      <data key="k0">test-time search for agents</data>
+      <data key="k1">166</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_exploratory_learning_2">
+      <data key="k0">exploratory learning</data>
+      <data key="k1">167</data>
+      <data key="k2">3</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_sequential_information_collection">
+      <data key="k0">sequential information collection</data>
+      <data key="k1">168</data>
+      <data key="k2">1</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_knowledge_gradient_policy">
+      <data key="k0">knowledge-gradient policy</data>
+      <data key="k1">169</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_ranking_and_selection">
+      <data key="k0">ranking and selection</data>
+      <data key="k1">170</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_bayesian_statistics">
+      <data key="k0">Bayesian statistics</data>
+      <data key="k1">171</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_sequential_decision_analysis">
+      <data key="k0">sequential decision analysis</data>
+      <data key="k1">172</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_optimal_decision_data">
+      <data key="k0">optimal decision data</data>
+      <data key="k1">173</data>
+      <data key="k2">1</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_what_data_enables_optimal_decisions">
+      <data key="k0">what data enables optimal decisions</data>
+      <data key="k1">174</data>
+      <data key="k2">2</data>
+      <data key="k3">Sequential decision making</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_physical_sciences_and_continuum_systems">
+      <data key="k0">Physical sciences and continuum systems</data>
+      <data key="k1">175</data>
+      <data key="k2">0</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_materials_science">
+      <data key="k0">materials science</data>
+      <data key="k1">176</data>
+      <data key="k2">1</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_materials_discovery">
+      <data key="k0">materials discovery</data>
+      <data key="k1">177</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_ai_for_materials_science">
+      <data key="k0">AI for materials science</data>
+      <data key="k1">178</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_data_driven_materials_discovery">
+      <data key="k0">data-driven materials discovery</data>
+      <data key="k1">179</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_bayesian_model_averaging_for_materials_discovery">
+      <data key="k0">Bayesian model averaging for materials discovery</data>
+      <data key="k1">180</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_self_driving_laboratories">
+      <data key="k0">self-driving laboratories</data>
+      <data key="k1">181</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_materials_design">
+      <data key="k0">materials design</data>
+      <data key="k1">182</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_process_structure_property_relationships">
+      <data key="k0">process-structure-property relationships</data>
+      <data key="k1">183</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_microstructure_sensitive_design">
+      <data key="k0">microstructure-sensitive design</data>
+      <data key="k1">184</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_multi_information_source_fusion">
+      <data key="k0">multi-information-source fusion</data>
+      <data key="k1">185</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_multisource_information_fusion">
+      <data key="k0">multisource information fusion</data>
+      <data key="k1">186</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_icme">
+      <data key="k0">ICME</data>
+      <data key="k1">187</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_inverse_design_for_precipitation_heat_treatments">
+      <data key="k0">inverse design for precipitation heat treatments</data>
+      <data key="k1">188</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_dual_phase_materials">
+      <data key="k0">dual-phase materials</data>
+      <data key="k1">189</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_graded_tpms_structures">
+      <data key="k0">graded TPMS structures</data>
+      <data key="k1">190</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_gradient_nanostructured_materials">
+      <data key="k0">gradient nanostructured materials</data>
+      <data key="k1">191</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_functional_materials">
+      <data key="k0">functional materials</data>
+      <data key="k1">192</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_lead_free_perovskite_nanocrystals">
+      <data key="k0">lead-free perovskite nanocrystals</data>
+      <data key="k1">193</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_soft_materials">
+      <data key="k0">soft materials</data>
+      <data key="k1">194</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_block_copolymer_self_assembly">
+      <data key="k0">block copolymer self-assembly</data>
+      <data key="k1">195</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_diblock_copolymer_microphase_separation">
+      <data key="k0">diblock copolymer microphase separation</data>
+      <data key="k1">196</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_ohta_kawasaki_model">
+      <data key="k0">Ohta-Kawasaki model</data>
+      <data key="k1">197</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_phase_behavior_and_interfaces">
+      <data key="k0">phase behavior and interfaces</data>
+      <data key="k1">198</data>
+      <data key="k2">1</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_phase_field_and_free_energy_models">
+      <data key="k0">phase-field and free-energy models</data>
+      <data key="k1">199</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_cahn_hilliard_equation">
+      <data key="k0">Cahn-Hilliard equation</data>
+      <data key="k1">200</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_cahn_hilliard_functional_with_long_range_interactions">
+      <data key="k0">Cahn-Hilliard functional with long-range interactions</data>
+      <data key="k1">201</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_nonlocal_cahn_hilliard_functional">
+      <data key="k0">nonlocal Cahn-Hilliard functional</data>
+      <data key="k1">202</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_phase_diagrams">
+      <data key="k0">phase diagrams</data>
+      <data key="k1">203</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_spectral_simulation_of_the_phase_diagram">
+      <data key="k0">spectral simulation of the phase diagram</data>
+      <data key="k1">204</data>
+      <data key="k2">3</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_multiphase_flow">
+      <data key="k0">multiphase flow</data>
+      <data key="k1">205</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_fluids_and_kinetic_theory">
+      <data key="k0">fluids and kinetic theory</data>
+      <data key="k1">206</data>
+      <data key="k2">1</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_boltzmann_kinetic_theory">
+      <data key="k0">Boltzmann kinetic theory</data>
+      <data key="k1">207</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_derivation_of_fluid_equations">
+      <data key="k0">derivation of fluid equations</data>
+      <data key="k1">208</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_hilbert_s_sixth_problem">
+      <data key="k0">Hilbert's sixth problem</data>
+      <data key="k1">209</data>
+      <data key="k2">2</data>
+      <data key="k3">Physical sciences and continuum systems</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_robotics_and_geometry">
+      <data key="k0">Robotics and geometry</data>
+      <data key="k1">210</data>
+      <data key="k2">0</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_motion_planning">
+      <data key="k0">motion planning</data>
+      <data key="k1">211</data>
+      <data key="k2">1</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_non_euclidean_motion_planning">
+      <data key="k0">non-Euclidean motion planning</data>
+      <data key="k1">212</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_graphs_of_geodesically_convex_sets">
+      <data key="k0">graphs of geodesically convex sets</data>
+      <data key="k1">213</data>
+      <data key="k2">3</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_long_horizon_episodic_robot_planning">
+      <data key="k0">long-horizon episodic robot planning</data>
+      <data key="k1">214</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_robot_planning_in_clutter">
+      <data key="k0">robot planning in clutter</data>
+      <data key="k1">215</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_geometry_for_robotics">
+      <data key="k0">geometry for robotics</data>
+      <data key="k1">216</data>
+      <data key="k2">1</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_riemannian_geometry">
+      <data key="k0">Riemannian geometry</data>
+      <data key="k1">217</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_robot_motion_learning">
+      <data key="k0">robot motion learning</data>
+      <data key="k1">218</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_robot_motion_control">
+      <data key="k0">robot motion control</data>
+      <data key="k1">219</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_motion_generation">
+      <data key="k0">motion generation</data>
+      <data key="k1">220</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_simulation_for_planning">
+      <data key="k0">simulation for planning</data>
+      <data key="k1">221</data>
+      <data key="k2">1</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_rigid_body_simulation">
+      <data key="k0">rigid-body simulation</data>
+      <data key="k1">222</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_batched_simulation">
+      <data key="k0">batched simulation</data>
+      <data key="k1">223</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_clutter_retrieval">
+      <data key="k0">clutter retrieval</data>
+      <data key="k1">224</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_referenced_neighboring_topics">
+      <data key="k0">referenced neighboring topics</data>
+      <data key="k1">225</data>
+      <data key="k2">1</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_agile_robotic_locomotion">
+      <data key="k0">agile robotic locomotion</data>
+      <data key="k1">226</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_rapid_motor_adaptation_for_legged_robots">
+      <data key="k0">rapid motor adaptation for legged robots</data>
+      <data key="k1">227</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_dexterous_in_hand_manipulation">
+      <data key="k0">dexterous in-hand manipulation</data>
+      <data key="k1">228</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_humanoids_and_quadrupeds">
+      <data key="k0">humanoids and quadrupeds</data>
+      <data key="k1">229</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_exoskeletons_and_robotic_hands">
+      <data key="k0">exoskeletons and robotic hands</data>
+      <data key="k1">230</data>
+      <data key="k2">2</data>
+      <data key="k3">Robotics and geometry</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_mathematical_structures">
+      <data key="k0">Mathematical structures</data>
+      <data key="k1">231</data>
+      <data key="k2">0</data>
+      <data key="k3">Mathematical structures</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_algebraic_geometry">
+      <data key="k0">algebraic geometry</data>
+      <data key="k1">232</data>
+      <data key="k2">1</data>
+      <data key="k3">Mathematical structures</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_tropical_geometry">
+      <data key="k0">tropical geometry</data>
+      <data key="k1">233</data>
+      <data key="k2">2</data>
+      <data key="k3">Mathematical structures</data>
+      <data key="k4">false</data>
+    </node>
+    <node id="topic_tropical_dual_numbers">
+      <data key="k0">tropical dual numbers</data>
+      <data key="k1">234</data>
+      <data key="k2">2</data>
+      <data key="k3">Mathematical structures</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_analysis_of_pdes">
+      <data key="k0">analysis of PDEs</data>
+      <data key="k1">235</data>
+      <data key="k2">1</data>
+      <data key="k3">Mathematical structures</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_mathematical_physics">
+      <data key="k0">mathematical physics</data>
+      <data key="k1">236</data>
+      <data key="k2">1</data>
+      <data key="k3">Mathematical structures</data>
+      <data key="k4">true</data>
+    </node>
+    <node id="topic_geometry_informed_learning">
+      <data key="k0">geometry-informed learning</data>
+      <data key="k1">237</data>
+      <data key="k2">1</data>
+      <data key="k3">Mathematical structures</data>
+      <data key="k4">true</data>
+    </node>
+    <edge id="e0" source="topic_numerical_analysis" target="topic_computational_mathematics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e1" source="topic_inverse_problems" target="topic_numerical_analysis">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e2" source="topic_bayesian_inverse_problems" target="topic_inverse_problems">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e3" source="topic_bayesian_level_set_method" target="topic_bayesian_inverse_problems">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e4" source="topic_piecewise_constant_reconstructions" target="topic_bayesian_inverse_problems">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e5" source="topic_markov_chain_monte_carlo_for_inverse_problems" target="topic_inverse_problems">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e6" source="topic_uncertainty_quantification" target="topic_numerical_analysis">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e7" source="topic_likelihood_free_inference" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e8" source="topic_expected_information_gain" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e9" source="topic_measure_transport" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e10" source="topic_manufacturing_variability" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e11" source="topic_transonic_airfoil_manufacturing_error" target="topic_manufacturing_variability">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e12" source="topic_compressor_blade_geometric_variability" target="topic_manufacturing_variability">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e13" source="topic_multidisciplinary_uncertainty" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e14" source="topic_satellite_system_design" target="topic_multidisciplinary_uncertainty">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e15" source="topic_hypersonic_propulsion_uncertainty" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e16" source="topic_hyshot_ii_scramjet" target="topic_hypersonic_propulsion_uncertainty">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e17" source="topic_interface_tracking_methods" target="topic_numerical_analysis">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e18" source="topic_level_set_methods" target="topic_interface_tracking_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e19" source="topic_hamilton_jacobi_equations" target="topic_level_set_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e20" source="topic_propagating_interfaces" target="topic_level_set_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e21" source="topic_fluid_interfaces" target="topic_level_set_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e22" source="topic_fast_marching_methods" target="topic_interface_tracking_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e23" source="topic_free_boundary_formulations" target="topic_interface_tracking_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e24" source="topic_optimization" target="topic_computational_mathematics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e25" source="topic_bayesian_optimization" target="topic_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e26" source="topic_foundational_formulations" target="topic_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e27" source="topic_bayesian_methods_for_seeking_the_extremum" target="topic_foundational_formulations">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e28" source="topic_efficient_global_optimization" target="topic_foundational_formulations">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e29" source="topic_tutorial_bayesian_optimization" target="topic_foundational_formulations">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e30" source="topic_gaussian_process_bayesian_optimization" target="topic_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e31" source="topic_practical_bayesian_optimization_for_hyperparameter_tuning" target="topic_gaussian_process_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e32" source="topic_adaptive_dimensionality_reduction_for_sequential_optimization" target="topic_gaussian_process_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e33" source="topic_acquisition_and_value_of_information_methods" target="topic_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e34" source="topic_knowledge_gradient_methods" target="topic_acquisition_and_value_of_information_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e35" source="topic_exploration_exploitation_tradeoffs" target="topic_acquisition_and_value_of_information_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e36" source="topic_batch_and_parallel_bayesian_optimization" target="topic_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e37" source="topic_batch_bayesian_optimization" target="topic_batch_and_parallel_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e38" source="topic_hybrid_batch_bayesian_optimization" target="topic_batch_and_parallel_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e39" source="topic_multi_objective_bayesian_optimization" target="topic_batch_and_parallel_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e40" source="topic_nested_subspace_bayesian_optimization" target="topic_batch_and_parallel_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e41" source="topic_high_dimensional_bayesian_optimization" target="topic_batch_and_parallel_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e42" source="topic_design_optimization" target="topic_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e43" source="topic_decision_focused_optimization" target="topic_design_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e44" source="topic_exact_characterization_for_linear_optimization" target="topic_decision_focused_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e45" source="topic_aerodynamic_shape_optimization" target="topic_design_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e46" source="topic_shape_optimization" target="topic_design_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e47" source="topic_variational_methods" target="topic_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e48" source="topic_calculus_of_variations" target="topic_variational_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e49" source="topic_euler_equations" target="topic_variational_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e50" source="topic_model_reduction_and_surrogate_modeling" target="topic_computational_mathematics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e51" source="topic_active_subspaces" target="topic_model_reduction_and_surrogate_modeling">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e52" source="topic_theory_and_computation" target="topic_active_subspaces">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e53" source="topic_active_subspace_methods_for_kriging_surfaces" target="topic_theory_and_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e54" source="topic_computing_active_subspaces_with_monte_carlo" target="topic_theory_and_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e55" source="topic_low_dimensional_structure" target="topic_active_subspaces">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e56" source="topic_sequential_learning_of_active_subspaces" target="topic_low_dimensional_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e57" source="topic_adaptive_active_subspaces" target="topic_low_dimensional_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e58" source="topic_one_dimensional_active_subspaces" target="topic_low_dimensional_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e59" source="topic_engineering_applications" target="topic_active_subspaces">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e60" source="topic_active_subspaces_for_shape_optimization" target="topic_engineering_applications">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e61" source="topic_active_subspace_materials_design" target="topic_engineering_applications">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e62" source="topic_transonic_wing_design" target="topic_engineering_applications">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e63" source="topic_satellite_uncertainty_quantification" target="topic_engineering_applications">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e64" source="topic_scramjet_uncertainty_quantification" target="topic_engineering_applications">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e65" source="topic_projection_based_model_reduction" target="topic_model_reduction_and_surrogate_modeling">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e66" source="topic_parametric_dynamical_systems" target="topic_projection_based_model_reduction">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e67" source="topic_petrov_galerkin_projection" target="topic_projection_based_model_reduction">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e68" source="topic_krylov_subspace_methods" target="topic_projection_based_model_reduction">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e69" source="topic_interpolation" target="topic_projection_based_model_reduction">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e70" source="topic_proper_orthogonal_decomposition" target="topic_projection_based_model_reduction">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e71" source="topic_balanced_truncation" target="topic_projection_based_model_reduction">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e72" source="topic_greedy_algorithms" target="topic_projection_based_model_reduction">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e73" source="topic_surrogate_models" target="topic_model_reduction_and_surrogate_modeling">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e74" source="topic_kriging" target="topic_surrogate_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e75" source="topic_gaussian_processes" target="topic_surrogate_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e76" source="topic_response_surfaces" target="topic_surrogate_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e77" source="topic_sensitivity_analysis" target="topic_model_reduction_and_surrogate_modeling">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e78" source="topic_variance_based_sensitivity_analysis" target="topic_sensitivity_analysis">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e79" source="topic_factor_prioritization" target="topic_sensitivity_analysis">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e80" source="topic_machine_learning_methods" target="topic_machine_learning_and_ai">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e81" source="topic_generative_modeling" target="topic_machine_learning_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e82" source="topic_variational_autoencoders" target="topic_generative_modeling">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e83" source="topic_uncertainty_guided_fine_tuning_for_molecular_design" target="topic_variational_autoencoders">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e84" source="topic_diffusion_models" target="topic_generative_modeling">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e85" source="topic_representation_learning" target="topic_machine_learning_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e86" source="topic_neural_computation" target="topic_machine_learning_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e87" source="topic_backpropagation_complexity" target="topic_neural_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e88" source="topic_tropical_neural_networks" target="topic_neural_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e89" source="topic_scientific_machine_learning" target="topic_machine_learning_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e90" source="topic_multimodal_learning" target="topic_machine_learning_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e91" source="topic_foundation_models_and_agents" target="topic_machine_learning_and_ai">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e92" source="topic_foundation_models_for_science" target="topic_foundation_models_and_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e93" source="topic_foundation_models_for_materials_science" target="topic_foundation_models_for_science">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e94" source="topic_foundation_models_for_materials_discovery" target="topic_foundation_models_for_science">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e95" source="topic_large_language_models" target="topic_foundation_models_and_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e96" source="topic_abstract_reasoning_in_large_language_models" target="topic_large_language_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e97" source="topic_long_chain_of_thought" target="topic_large_language_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e98" source="topic_chain_of_thought_theory" target="topic_large_language_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e99" source="topic_autonomous_agents" target="topic_foundation_models_and_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e100" source="topic_science_exocortex" target="topic_autonomous_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e101" source="topic_self_learning_from_search_traces" target="topic_autonomous_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e102" source="topic_vision_language_model_agents" target="topic_foundation_models_and_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e103" source="topic_reflective_monte_carlo_tree_search" target="topic_vision_language_model_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e104" source="topic_reasoning_and_structured_inference" target="topic_machine_learning_and_ai">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e105" source="topic_automated_reasoning" target="topic_reasoning_and_structured_inference">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e106" source="topic_bucket_elimination" target="topic_automated_reasoning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e107" source="topic_theorem_proving" target="topic_automated_reasoning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e108" source="topic_exact_inference_in_belief_networks" target="topic_automated_reasoning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e109" source="topic_exact_inference_in_constraint_networks" target="topic_automated_reasoning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e110" source="topic_junction_tree_style_decompositions" target="topic_automated_reasoning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e111" source="topic_symbolic_mechanisms" target="topic_reasoning_and_structured_inference">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e112" source="topic_probabilistic_reasoning" target="topic_reasoning_and_structured_inference">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e113" source="topic_graphical_model_inference" target="topic_reasoning_and_structured_inference">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e114" source="topic_parallelization_of_sequential_computation" target="topic_machine_learning_and_ai">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e115" source="topic_sequence_length_parallelism" target="topic_parallelization_of_sequential_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e116" source="topic_parallel_sequence_models" target="topic_parallelization_of_sequential_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e117" source="topic_parallelizing_non_linear_sequential_models" target="topic_parallel_sequence_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e118" source="topic_parallel_neural_operations" target="topic_parallelization_of_sequential_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e119" source="topic_deeppcr" target="topic_parallel_neural_operations">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e120" source="topic_distributed_and_parallel_scientific_computing" target="topic_parallelization_of_sequential_computation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e121" source="topic_reinforcement_learning" target="topic_sequential_decision_making">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e122" source="topic_dynamic_programming" target="topic_reinforcement_learning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e123" source="topic_model_based_reinforcement_learning" target="topic_reinforcement_learning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e124" source="topic_planning_under_uncertainty" target="topic_sequential_decision_making">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e125" source="topic_monte_carlo_tree_search" target="topic_planning_under_uncertainty">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e126" source="topic_core_planning_papers" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e127" source="topic_bandit_based_monte_carlo_planning" target="topic_core_planning_papers">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e128" source="topic_bayesian_optimized_monte_carlo_planning" target="topic_core_planning_papers">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e129" source="topic_bandit_foundations" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e130" source="topic_bandit_algorithms_for_tree_search" target="topic_bandit_foundations">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e131" source="topic_finite_time_analysis_of_the_multiarmed_bandit_problem" target="topic_bandit_foundations">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e132" source="topic_multi_armed_bandits_with_episode_context" target="topic_bandit_foundations">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e133" source="topic_survey_structure" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e134" source="topic_bandit_based_methods" target="topic_survey_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e135" source="topic_game_search" target="topic_survey_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e136" source="topic_computer_go" target="topic_survey_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e137" source="topic_upper_confidence_bounds" target="topic_survey_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e138" source="topic_upper_confidence_bounds_for_trees" target="topic_survey_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e139" source="topic_uct" target="topic_survey_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e140" source="topic_exploration_strategies" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e141" source="topic_boltzmann_exploration" target="topic_exploration_strategies">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e142" source="topic_progressive_bias" target="topic_exploration_strategies">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e143" source="topic_progressive_unpruning" target="topic_exploration_strategies">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e144" source="topic_pure_exploration_in_batch_settings" target="topic_exploration_strategies">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e145" source="topic_abstraction_in_search" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e146" source="topic_iteratively_refining_state_abstractions" target="topic_abstraction_in_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e147" source="topic_probability_tree_state_abstraction" target="topic_abstraction_in_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e148" source="topic_robustness_and_estimation" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e149" source="topic_doubly_robust_mcts" target="topic_robustness_and_estimation">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e150" source="topic_information_reuse" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e151" source="topic_hidden_information_games" target="topic_information_reuse">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e152" source="topic_information_capture_and_reuse" target="topic_information_reuse">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e153" source="topic_action_space_structure" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e154" source="topic_continuous_action_spaces_with_execution_uncertainty" target="topic_action_space_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e155" source="topic_voronoi_optimistic_optimization" target="topic_action_space_structure">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e156" source="topic_proof_oriented_search" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e157" source="topic_proof_number_based_mcts" target="topic_proof_oriented_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e158" source="topic_embodied_planning" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e159" source="topic_parallel_mcts_with_batched_rigid_body_simulations" target="topic_embodied_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e160" source="topic_survey_and_synthesis" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e161" source="topic_survey_of_monte_carlo_tree_search_methods" target="topic_survey_and_synthesis">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e162" source="topic_exploratory_learning" target="topic_planning_under_uncertainty">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e163" source="topic_test_time_search_for_agents" target="topic_exploratory_learning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e164" source="topic_exploratory_learning_2" target="topic_exploratory_learning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e165" source="topic_sequential_information_collection" target="topic_sequential_decision_making">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e166" source="topic_knowledge_gradient_policy" target="topic_sequential_information_collection">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e167" source="topic_ranking_and_selection" target="topic_sequential_information_collection">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e168" source="topic_bayesian_statistics" target="topic_sequential_information_collection">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e169" source="topic_sequential_decision_analysis" target="topic_sequential_information_collection">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e170" source="topic_optimal_decision_data" target="topic_sequential_decision_making">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e171" source="topic_what_data_enables_optimal_decisions" target="topic_optimal_decision_data">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e172" source="topic_materials_science" target="topic_physical_sciences_and_continuum_systems">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e173" source="topic_materials_discovery" target="topic_materials_science">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e174" source="topic_ai_for_materials_science" target="topic_materials_discovery">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e175" source="topic_data_driven_materials_discovery" target="topic_materials_discovery">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e176" source="topic_bayesian_model_averaging_for_materials_discovery" target="topic_materials_discovery">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e177" source="topic_self_driving_laboratories" target="topic_materials_discovery">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e178" source="topic_materials_design" target="topic_materials_science">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e179" source="topic_process_structure_property_relationships" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e180" source="topic_microstructure_sensitive_design" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e181" source="topic_multi_information_source_fusion" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e182" source="topic_multisource_information_fusion" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e183" source="topic_icme" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e184" source="topic_inverse_design_for_precipitation_heat_treatments" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e185" source="topic_dual_phase_materials" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e186" source="topic_graded_tpms_structures" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e187" source="topic_gradient_nanostructured_materials" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e188" source="topic_functional_materials" target="topic_materials_science">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e189" source="topic_lead_free_perovskite_nanocrystals" target="topic_functional_materials">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e190" source="topic_soft_materials" target="topic_materials_science">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e191" source="topic_block_copolymer_self_assembly" target="topic_soft_materials">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e192" source="topic_diblock_copolymer_microphase_separation" target="topic_soft_materials">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e193" source="topic_ohta_kawasaki_model" target="topic_soft_materials">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e194" source="topic_phase_behavior_and_interfaces" target="topic_physical_sciences_and_continuum_systems">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e195" source="topic_phase_field_and_free_energy_models" target="topic_phase_behavior_and_interfaces">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e196" source="topic_cahn_hilliard_equation" target="topic_phase_field_and_free_energy_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e197" source="topic_cahn_hilliard_functional_with_long_range_interactions" target="topic_phase_field_and_free_energy_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e198" source="topic_nonlocal_cahn_hilliard_functional" target="topic_phase_field_and_free_energy_models">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e199" source="topic_phase_diagrams" target="topic_phase_behavior_and_interfaces">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e200" source="topic_spectral_simulation_of_the_phase_diagram" target="topic_phase_diagrams">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e201" source="topic_multiphase_flow" target="topic_phase_behavior_and_interfaces">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e202" source="topic_fluids_and_kinetic_theory" target="topic_physical_sciences_and_continuum_systems">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e203" source="topic_boltzmann_kinetic_theory" target="topic_fluids_and_kinetic_theory">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e204" source="topic_derivation_of_fluid_equations" target="topic_fluids_and_kinetic_theory">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e205" source="topic_hilbert_s_sixth_problem" target="topic_fluids_and_kinetic_theory">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e206" source="topic_motion_planning" target="topic_robotics_and_geometry">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e207" source="topic_non_euclidean_motion_planning" target="topic_motion_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e208" source="topic_graphs_of_geodesically_convex_sets" target="topic_non_euclidean_motion_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e209" source="topic_long_horizon_episodic_robot_planning" target="topic_motion_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e210" source="topic_robot_planning_in_clutter" target="topic_motion_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e211" source="topic_geometry_for_robotics" target="topic_robotics_and_geometry">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e212" source="topic_riemannian_geometry" target="topic_geometry_for_robotics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e213" source="topic_robot_motion_learning" target="topic_geometry_for_robotics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e214" source="topic_robot_motion_control" target="topic_geometry_for_robotics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e215" source="topic_motion_generation" target="topic_geometry_for_robotics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e216" source="topic_simulation_for_planning" target="topic_robotics_and_geometry">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e217" source="topic_rigid_body_simulation" target="topic_simulation_for_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e218" source="topic_batched_simulation" target="topic_simulation_for_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e219" source="topic_clutter_retrieval" target="topic_simulation_for_planning">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e220" source="topic_referenced_neighboring_topics" target="topic_robotics_and_geometry">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e221" source="topic_agile_robotic_locomotion" target="topic_referenced_neighboring_topics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e222" source="topic_rapid_motor_adaptation_for_legged_robots" target="topic_referenced_neighboring_topics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e223" source="topic_dexterous_in_hand_manipulation" target="topic_referenced_neighboring_topics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e224" source="topic_humanoids_and_quadrupeds" target="topic_referenced_neighboring_topics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e225" source="topic_exoskeletons_and_robotic_hands" target="topic_referenced_neighboring_topics">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e226" source="topic_algebraic_geometry" target="topic_mathematical_structures">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e227" source="topic_tropical_geometry" target="topic_algebraic_geometry">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e228" source="topic_tropical_dual_numbers" target="topic_algebraic_geometry">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e229" source="topic_analysis_of_pdes" target="topic_mathematical_structures">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e230" source="topic_mathematical_physics" target="topic_mathematical_structures">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e231" source="topic_geometry_informed_learning" target="topic_mathematical_structures">
+      <data key="k5">child_of</data>
+      <data key="k6">primary</data>
+    </edge>
+    <edge id="e232" source="topic_bayesian_inverse_problems" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e233" source="topic_markov_chain_monte_carlo_for_inverse_problems" target="topic_bayesian_inverse_problems">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e234" source="topic_manufacturing_variability" target="topic_materials_design">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e235" source="topic_transonic_airfoil_manufacturing_error" target="topic_aerodynamic_shape_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e236" source="topic_compressor_blade_geometric_variability" target="topic_aerodynamic_shape_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e237" source="topic_gaussian_process_bayesian_optimization" target="topic_gaussian_processes">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e238" source="topic_knowledge_gradient_methods" target="topic_sequential_information_collection">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e239" source="topic_knowledge_gradient_policy" target="topic_knowledge_gradient_methods">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e240" source="topic_active_subspaces" target="topic_sensitivity_analysis">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e241" source="topic_active_subspaces_for_shape_optimization" target="topic_aerodynamic_shape_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e242" source="topic_transonic_wing_design" target="topic_aerodynamic_shape_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e243" source="topic_satellite_uncertainty_quantification" target="topic_multidisciplinary_uncertainty">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e244" source="topic_scramjet_uncertainty_quantification" target="topic_hypersonic_propulsion_uncertainty">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e245" source="topic_kriging" target="topic_gaussian_processes">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e246" source="topic_foundation_models_for_materials_science" target="topic_ai_for_materials_science">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e247" source="topic_foundation_models_for_materials_discovery" target="topic_materials_discovery">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e248" source="topic_reflective_monte_carlo_tree_search" target="topic_monte_carlo_tree_search">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e249" source="topic_bayesian_optimized_monte_carlo_planning" target="topic_bayesian_optimization">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e250" source="topic_self_driving_laboratories" target="topic_autonomous_agents">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e251" source="topic_riemannian_geometry" target="topic_mathematical_structures">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e252" source="topic_tropical_neural_networks" target="topic_tropical_geometry">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e253" source="topic_bayesian_statistics" target="topic_uncertainty_quantification">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+    <edge id="e254" source="topic_parallel_mcts_with_batched_rigid_body_simulations" target="topic_batched_simulation">
+      <data key="k5">child_of</data>
+      <data key="k6">secondary</data>
+    </edge>
+  </graph>
+</graphml>

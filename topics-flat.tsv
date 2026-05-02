@@ -1,0 +1,239 @@
+index	topic_id	label	depth_hint	top_domain	terminal
+0	topic_computational_mathematics	Computational mathematics	0	Computational mathematics	false
+1	topic_numerical_analysis	Numerical analysis	1	Computational mathematics	false
+2	topic_inverse_problems	inverse problems	2	Computational mathematics	false
+3	topic_bayesian_inverse_problems	Bayesian inverse problems	3	Computational mathematics	false
+4	topic_bayesian_level_set_method	Bayesian level set method	4	Computational mathematics	true
+5	topic_piecewise_constant_reconstructions	piecewise-constant reconstructions	4	Computational mathematics	true
+6	topic_markov_chain_monte_carlo_for_inverse_problems	Markov chain Monte Carlo for inverse problems	3	Computational mathematics	true
+7	topic_uncertainty_quantification	uncertainty quantification	2	Computational mathematics	false
+8	topic_likelihood_free_inference	likelihood-free inference	3	Computational mathematics	true
+9	topic_expected_information_gain	expected information gain	3	Computational mathematics	true
+10	topic_measure_transport	measure transport	3	Computational mathematics	true
+11	topic_manufacturing_variability	manufacturing variability	3	Computational mathematics	false
+12	topic_transonic_airfoil_manufacturing_error	transonic airfoil manufacturing error	4	Computational mathematics	true
+13	topic_compressor_blade_geometric_variability	compressor blade geometric variability	4	Computational mathematics	true
+14	topic_multidisciplinary_uncertainty	multidisciplinary uncertainty	3	Computational mathematics	false
+15	topic_satellite_system_design	satellite system design	4	Computational mathematics	true
+16	topic_hypersonic_propulsion_uncertainty	hypersonic propulsion uncertainty	3	Computational mathematics	false
+17	topic_hyshot_ii_scramjet	HyShot II scramjet	4	Computational mathematics	true
+18	topic_interface_tracking_methods	interface-tracking methods	2	Computational mathematics	false
+19	topic_level_set_methods	level set methods	3	Computational mathematics	false
+20	topic_hamilton_jacobi_equations	Hamilton-Jacobi equations	4	Computational mathematics	true
+21	topic_propagating_interfaces	propagating interfaces	4	Computational mathematics	true
+22	topic_fluid_interfaces	fluid interfaces	4	Computational mathematics	true
+23	topic_fast_marching_methods	fast marching methods	3	Computational mathematics	true
+24	topic_free_boundary_formulations	free-boundary formulations	3	Computational mathematics	true
+25	topic_optimization	Optimization	1	Computational mathematics	false
+26	topic_bayesian_optimization	Bayesian optimization	2	Computational mathematics	false
+27	topic_foundational_formulations	foundational formulations	3	Computational mathematics	false
+28	topic_bayesian_methods_for_seeking_the_extremum	Bayesian methods for seeking the extremum	4	Computational mathematics	true
+29	topic_efficient_global_optimization	efficient global optimization	4	Computational mathematics	true
+30	topic_tutorial_bayesian_optimization	tutorial Bayesian optimization	4	Computational mathematics	true
+31	topic_gaussian_process_bayesian_optimization	Gaussian-process Bayesian optimization	3	Computational mathematics	false
+32	topic_practical_bayesian_optimization_for_hyperparameter_tuning	practical Bayesian optimization for hyperparameter tuning	4	Computational mathematics	true
+33	topic_adaptive_dimensionality_reduction_for_sequential_optimization	adaptive dimensionality reduction for sequential optimization	4	Computational mathematics	true
+34	topic_acquisition_and_value_of_information_methods	acquisition and value-of-information methods	3	Computational mathematics	false
+35	topic_knowledge_gradient_methods	knowledge-gradient methods	4	Computational mathematics	false
+36	topic_exploration_exploitation_tradeoffs	exploration-exploitation tradeoffs	4	Computational mathematics	true
+37	topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	3	Computational mathematics	false
+38	topic_batch_bayesian_optimization	batch Bayesian optimization	4	Computational mathematics	true
+39	topic_hybrid_batch_bayesian_optimization	hybrid batch Bayesian optimization	4	Computational mathematics	true
+40	topic_multi_objective_bayesian_optimization	multi-objective Bayesian optimization	4	Computational mathematics	true
+41	topic_nested_subspace_bayesian_optimization	nested subspace Bayesian optimization	4	Computational mathematics	true
+42	topic_high_dimensional_bayesian_optimization	high-dimensional Bayesian optimization	4	Computational mathematics	true
+43	topic_design_optimization	design optimization	2	Computational mathematics	false
+44	topic_decision_focused_optimization	decision-focused optimization	3	Computational mathematics	false
+45	topic_exact_characterization_for_linear_optimization	exact characterization for linear optimization	4	Computational mathematics	true
+46	topic_aerodynamic_shape_optimization	aerodynamic shape optimization	3	Computational mathematics	false
+47	topic_shape_optimization	shape optimization	3	Computational mathematics	true
+48	topic_variational_methods	variational methods	2	Computational mathematics	false
+49	topic_calculus_of_variations	calculus of variations	3	Computational mathematics	true
+50	topic_euler_equations	Euler equations	3	Computational mathematics	true
+51	topic_model_reduction_and_surrogate_modeling	Model reduction and surrogate modeling	1	Computational mathematics	false
+52	topic_active_subspaces	active subspaces	2	Computational mathematics	false
+53	topic_theory_and_computation	theory and computation	3	Computational mathematics	false
+54	topic_active_subspace_methods_for_kriging_surfaces	active subspace methods for kriging surfaces	4	Computational mathematics	true
+55	topic_computing_active_subspaces_with_monte_carlo	computing active subspaces with Monte Carlo	4	Computational mathematics	true
+56	topic_low_dimensional_structure	low-dimensional structure	3	Computational mathematics	false
+57	topic_sequential_learning_of_active_subspaces	sequential learning of active subspaces	4	Computational mathematics	true
+58	topic_adaptive_active_subspaces	adaptive active subspaces	4	Computational mathematics	true
+59	topic_one_dimensional_active_subspaces	one-dimensional active subspaces	4	Computational mathematics	true
+60	topic_engineering_applications	engineering applications	3	Computational mathematics	false
+61	topic_active_subspaces_for_shape_optimization	active subspaces for shape optimization	4	Computational mathematics	true
+62	topic_active_subspace_materials_design	active-subspace materials design	4	Computational mathematics	true
+63	topic_transonic_wing_design	transonic wing design	4	Computational mathematics	true
+64	topic_satellite_uncertainty_quantification	satellite uncertainty quantification	4	Computational mathematics	true
+65	topic_scramjet_uncertainty_quantification	scramjet uncertainty quantification	4	Computational mathematics	true
+66	topic_projection_based_model_reduction	projection-based model reduction	2	Computational mathematics	false
+67	topic_parametric_dynamical_systems	parametric dynamical systems	3	Computational mathematics	true
+68	topic_petrov_galerkin_projection	Petrov-Galerkin projection	3	Computational mathematics	true
+69	topic_krylov_subspace_methods	Krylov subspace methods	3	Computational mathematics	true
+70	topic_interpolation	interpolation	3	Computational mathematics	true
+71	topic_proper_orthogonal_decomposition	proper orthogonal decomposition	3	Computational mathematics	true
+72	topic_balanced_truncation	balanced truncation	3	Computational mathematics	true
+73	topic_greedy_algorithms	greedy algorithms	3	Computational mathematics	true
+74	topic_surrogate_models	surrogate models	2	Computational mathematics	false
+75	topic_kriging	kriging	3	Computational mathematics	true
+76	topic_gaussian_processes	Gaussian processes	3	Computational mathematics	false
+77	topic_response_surfaces	response surfaces	3	Computational mathematics	true
+78	topic_sensitivity_analysis	sensitivity analysis	2	Computational mathematics	false
+79	topic_variance_based_sensitivity_analysis	variance-based sensitivity analysis	3	Computational mathematics	true
+80	topic_factor_prioritization	factor prioritization	3	Computational mathematics	true
+81	topic_machine_learning_and_ai	Machine learning and AI	0	Machine learning and AI	false
+82	topic_machine_learning_methods	machine learning methods	1	Machine learning and AI	false
+83	topic_generative_modeling	generative modeling	2	Machine learning and AI	false
+84	topic_variational_autoencoders	variational autoencoders	3	Machine learning and AI	false
+85	topic_uncertainty_guided_fine_tuning_for_molecular_design	uncertainty-guided fine-tuning for molecular design	4	Machine learning and AI	true
+86	topic_diffusion_models	diffusion models	3	Machine learning and AI	true
+87	topic_representation_learning	representation learning	2	Machine learning and AI	true
+88	topic_neural_computation	neural computation	2	Machine learning and AI	false
+89	topic_backpropagation_complexity	backpropagation complexity	3	Machine learning and AI	true
+90	topic_tropical_neural_networks	tropical neural networks	3	Machine learning and AI	true
+91	topic_scientific_machine_learning	scientific machine learning	2	Machine learning and AI	true
+92	topic_multimodal_learning	multimodal learning	2	Machine learning and AI	true
+93	topic_foundation_models_and_agents	foundation models and agents	1	Machine learning and AI	false
+94	topic_foundation_models_for_science	foundation models for science	2	Machine learning and AI	false
+95	topic_foundation_models_for_materials_science	foundation models for materials science	3	Machine learning and AI	true
+96	topic_foundation_models_for_materials_discovery	foundation models for materials discovery	3	Machine learning and AI	true
+97	topic_large_language_models	large language models	2	Machine learning and AI	false
+98	topic_abstract_reasoning_in_large_language_models	abstract reasoning in large language models	3	Machine learning and AI	true
+99	topic_long_chain_of_thought	long chain-of-thought	3	Machine learning and AI	true
+100	topic_chain_of_thought_theory	chain-of-thought theory	3	Machine learning and AI	true
+101	topic_autonomous_agents	autonomous agents	2	Machine learning and AI	false
+102	topic_science_exocortex	science exocortex	3	Machine learning and AI	true
+103	topic_self_learning_from_search_traces	self-learning from search traces	3	Machine learning and AI	true
+104	topic_vision_language_model_agents	vision-language-model agents	2	Machine learning and AI	false
+105	topic_reflective_monte_carlo_tree_search	reflective Monte Carlo tree search	3	Machine learning and AI	true
+106	topic_reasoning_and_structured_inference	reasoning and structured inference	1	Machine learning and AI	false
+107	topic_automated_reasoning	automated reasoning	2	Machine learning and AI	false
+108	topic_bucket_elimination	bucket elimination	3	Machine learning and AI	true
+109	topic_theorem_proving	theorem proving	3	Machine learning and AI	true
+110	topic_exact_inference_in_belief_networks	exact inference in belief networks	3	Machine learning and AI	true
+111	topic_exact_inference_in_constraint_networks	exact inference in constraint networks	3	Machine learning and AI	true
+112	topic_junction_tree_style_decompositions	junction-tree style decompositions	3	Machine learning and AI	true
+113	topic_symbolic_mechanisms	symbolic mechanisms	2	Machine learning and AI	true
+114	topic_probabilistic_reasoning	probabilistic reasoning	2	Machine learning and AI	true
+115	topic_graphical_model_inference	graphical-model inference	2	Machine learning and AI	true
+116	topic_parallelization_of_sequential_computation	parallelization of sequential computation	1	Machine learning and AI	false
+117	topic_sequence_length_parallelism	sequence-length parallelism	2	Machine learning and AI	true
+118	topic_parallel_sequence_models	parallel sequence models	2	Machine learning and AI	false
+119	topic_parallelizing_non_linear_sequential_models	parallelizing non-linear sequential models	3	Machine learning and AI	true
+120	topic_parallel_neural_operations	parallel neural operations	2	Machine learning and AI	false
+121	topic_deeppcr	DeepPCR	3	Machine learning and AI	true
+122	topic_distributed_and_parallel_scientific_computing	distributed and parallel scientific computing	2	Machine learning and AI	true
+123	topic_sequential_decision_making	Sequential decision making	0	Sequential decision making	false
+124	topic_reinforcement_learning	reinforcement learning	1	Sequential decision making	false
+125	topic_dynamic_programming	dynamic programming	2	Sequential decision making	true
+126	topic_model_based_reinforcement_learning	model-based reinforcement learning	2	Sequential decision making	true
+127	topic_planning_under_uncertainty	planning under uncertainty	1	Sequential decision making	false
+128	topic_monte_carlo_tree_search	Monte Carlo tree search	2	Sequential decision making	false
+129	topic_core_planning_papers	core planning papers	3	Sequential decision making	false
+130	topic_bandit_based_monte_carlo_planning	bandit based Monte-Carlo planning	4	Sequential decision making	true
+131	topic_bayesian_optimized_monte_carlo_planning	Bayesian optimized Monte Carlo planning	4	Sequential decision making	true
+132	topic_bandit_foundations	bandit foundations	3	Sequential decision making	false
+133	topic_bandit_algorithms_for_tree_search	bandit algorithms for tree search	4	Sequential decision making	true
+134	topic_finite_time_analysis_of_the_multiarmed_bandit_problem	finite-time analysis of the multiarmed bandit problem	4	Sequential decision making	true
+135	topic_multi_armed_bandits_with_episode_context	multi-armed bandits with episode context	4	Sequential decision making	true
+136	topic_survey_structure	survey structure	3	Sequential decision making	false
+137	topic_bandit_based_methods	bandit-based methods	4	Sequential decision making	true
+138	topic_game_search	game search	4	Sequential decision making	true
+139	topic_computer_go	computer Go	4	Sequential decision making	true
+140	topic_upper_confidence_bounds	upper confidence bounds	4	Sequential decision making	true
+141	topic_upper_confidence_bounds_for_trees	upper confidence bounds for trees	4	Sequential decision making	true
+142	topic_uct	UCT	4	Sequential decision making	true
+143	topic_exploration_strategies	exploration strategies	3	Sequential decision making	false
+144	topic_boltzmann_exploration	Boltzmann exploration	4	Sequential decision making	true
+145	topic_progressive_bias	progressive bias	4	Sequential decision making	true
+146	topic_progressive_unpruning	progressive unpruning	4	Sequential decision making	true
+147	topic_pure_exploration_in_batch_settings	pure exploration in batch settings	4	Sequential decision making	true
+148	topic_abstraction_in_search	abstraction in search	3	Sequential decision making	false
+149	topic_iteratively_refining_state_abstractions	iteratively refining state abstractions	4	Sequential decision making	true
+150	topic_probability_tree_state_abstraction	probability tree state abstraction	4	Sequential decision making	true
+151	topic_robustness_and_estimation	robustness and estimation	3	Sequential decision making	false
+152	topic_doubly_robust_mcts	doubly robust MCTS	4	Sequential decision making	true
+153	topic_information_reuse	information reuse	3	Sequential decision making	false
+154	topic_hidden_information_games	hidden-information games	4	Sequential decision making	true
+155	topic_information_capture_and_reuse	information capture and reuse	4	Sequential decision making	true
+156	topic_action_space_structure	action-space structure	3	Sequential decision making	false
+157	topic_continuous_action_spaces_with_execution_uncertainty	continuous action spaces with execution uncertainty	4	Sequential decision making	true
+158	topic_voronoi_optimistic_optimization	Voronoi optimistic optimization	4	Sequential decision making	true
+159	topic_proof_oriented_search	proof-oriented search	3	Sequential decision making	false
+160	topic_proof_number_based_mcts	proof-number-based MCTS	4	Sequential decision making	true
+161	topic_embodied_planning	embodied planning	3	Sequential decision making	false
+162	topic_parallel_mcts_with_batched_rigid_body_simulations	parallel MCTS with batched rigid-body simulations	4	Sequential decision making	true
+163	topic_survey_and_synthesis	survey and synthesis	3	Sequential decision making	false
+164	topic_survey_of_monte_carlo_tree_search_methods	survey of Monte Carlo tree search methods	4	Sequential decision making	true
+165	topic_exploratory_learning	exploratory learning	2	Sequential decision making	false
+166	topic_test_time_search_for_agents	test-time search for agents	3	Sequential decision making	true
+167	topic_exploratory_learning_2	exploratory learning	3	Sequential decision making	true
+168	topic_sequential_information_collection	sequential information collection	1	Sequential decision making	false
+169	topic_knowledge_gradient_policy	knowledge-gradient policy	2	Sequential decision making	true
+170	topic_ranking_and_selection	ranking and selection	2	Sequential decision making	true
+171	topic_bayesian_statistics	Bayesian statistics	2	Sequential decision making	true
+172	topic_sequential_decision_analysis	sequential decision analysis	2	Sequential decision making	true
+173	topic_optimal_decision_data	optimal decision data	1	Sequential decision making	false
+174	topic_what_data_enables_optimal_decisions	what data enables optimal decisions	2	Sequential decision making	true
+175	topic_physical_sciences_and_continuum_systems	Physical sciences and continuum systems	0	Physical sciences and continuum systems	false
+176	topic_materials_science	materials science	1	Physical sciences and continuum systems	false
+177	topic_materials_discovery	materials discovery	2	Physical sciences and continuum systems	false
+178	topic_ai_for_materials_science	AI for materials science	3	Physical sciences and continuum systems	false
+179	topic_data_driven_materials_discovery	data-driven materials discovery	3	Physical sciences and continuum systems	true
+180	topic_bayesian_model_averaging_for_materials_discovery	Bayesian model averaging for materials discovery	3	Physical sciences and continuum systems	true
+181	topic_self_driving_laboratories	self-driving laboratories	3	Physical sciences and continuum systems	true
+182	topic_materials_design	materials design	2	Physical sciences and continuum systems	false
+183	topic_process_structure_property_relationships	process-structure-property relationships	3	Physical sciences and continuum systems	true
+184	topic_microstructure_sensitive_design	microstructure-sensitive design	3	Physical sciences and continuum systems	true
+185	topic_multi_information_source_fusion	multi-information-source fusion	3	Physical sciences and continuum systems	true
+186	topic_multisource_information_fusion	multisource information fusion	3	Physical sciences and continuum systems	true
+187	topic_icme	ICME	3	Physical sciences and continuum systems	true
+188	topic_inverse_design_for_precipitation_heat_treatments	inverse design for precipitation heat treatments	3	Physical sciences and continuum systems	true
+189	topic_dual_phase_materials	dual-phase materials	3	Physical sciences and continuum systems	true
+190	topic_graded_tpms_structures	graded TPMS structures	3	Physical sciences and continuum systems	true
+191	topic_gradient_nanostructured_materials	gradient nanostructured materials	3	Physical sciences and continuum systems	true
+192	topic_functional_materials	functional materials	2	Physical sciences and continuum systems	false
+193	topic_lead_free_perovskite_nanocrystals	lead-free perovskite nanocrystals	3	Physical sciences and continuum systems	true
+194	topic_soft_materials	soft materials	2	Physical sciences and continuum systems	false
+195	topic_block_copolymer_self_assembly	block copolymer self-assembly	3	Physical sciences and continuum systems	true
+196	topic_diblock_copolymer_microphase_separation	diblock copolymer microphase separation	3	Physical sciences and continuum systems	true
+197	topic_ohta_kawasaki_model	Ohta-Kawasaki model	3	Physical sciences and continuum systems	true
+198	topic_phase_behavior_and_interfaces	phase behavior and interfaces	1	Physical sciences and continuum systems	false
+199	topic_phase_field_and_free_energy_models	phase-field and free-energy models	2	Physical sciences and continuum systems	false
+200	topic_cahn_hilliard_equation	Cahn-Hilliard equation	3	Physical sciences and continuum systems	true
+201	topic_cahn_hilliard_functional_with_long_range_interactions	Cahn-Hilliard functional with long-range interactions	3	Physical sciences and continuum systems	true
+202	topic_nonlocal_cahn_hilliard_functional	nonlocal Cahn-Hilliard functional	3	Physical sciences and continuum systems	true
+203	topic_phase_diagrams	phase diagrams	2	Physical sciences and continuum systems	false
+204	topic_spectral_simulation_of_the_phase_diagram	spectral simulation of the phase diagram	3	Physical sciences and continuum systems	true
+205	topic_multiphase_flow	multiphase flow	2	Physical sciences and continuum systems	true
+206	topic_fluids_and_kinetic_theory	fluids and kinetic theory	1	Physical sciences and continuum systems	false
+207	topic_boltzmann_kinetic_theory	Boltzmann kinetic theory	2	Physical sciences and continuum systems	true
+208	topic_derivation_of_fluid_equations	derivation of fluid equations	2	Physical sciences and continuum systems	true
+209	topic_hilbert_s_sixth_problem	Hilbert's sixth problem	2	Physical sciences and continuum systems	true
+210	topic_robotics_and_geometry	Robotics and geometry	0	Robotics and geometry	false
+211	topic_motion_planning	motion planning	1	Robotics and geometry	false
+212	topic_non_euclidean_motion_planning	non-Euclidean motion planning	2	Robotics and geometry	false
+213	topic_graphs_of_geodesically_convex_sets	graphs of geodesically convex sets	3	Robotics and geometry	true
+214	topic_long_horizon_episodic_robot_planning	long-horizon episodic robot planning	2	Robotics and geometry	true
+215	topic_robot_planning_in_clutter	robot planning in clutter	2	Robotics and geometry	true
+216	topic_geometry_for_robotics	geometry for robotics	1	Robotics and geometry	false
+217	topic_riemannian_geometry	Riemannian geometry	2	Robotics and geometry	true
+218	topic_robot_motion_learning	robot motion learning	2	Robotics and geometry	true
+219	topic_robot_motion_control	robot motion control	2	Robotics and geometry	true
+220	topic_motion_generation	motion generation	2	Robotics and geometry	true
+221	topic_simulation_for_planning	simulation for planning	1	Robotics and geometry	false
+222	topic_rigid_body_simulation	rigid-body simulation	2	Robotics and geometry	true
+223	topic_batched_simulation	batched simulation	2	Robotics and geometry	false
+224	topic_clutter_retrieval	clutter retrieval	2	Robotics and geometry	true
+225	topic_referenced_neighboring_topics	referenced neighboring topics	1	Robotics and geometry	false
+226	topic_agile_robotic_locomotion	agile robotic locomotion	2	Robotics and geometry	true
+227	topic_rapid_motor_adaptation_for_legged_robots	rapid motor adaptation for legged robots	2	Robotics and geometry	true
+228	topic_dexterous_in_hand_manipulation	dexterous in-hand manipulation	2	Robotics and geometry	true
+229	topic_humanoids_and_quadrupeds	humanoids and quadrupeds	2	Robotics and geometry	true
+230	topic_exoskeletons_and_robotic_hands	exoskeletons and robotic hands	2	Robotics and geometry	true
+231	topic_mathematical_structures	Mathematical structures	0	Mathematical structures	false
+232	topic_algebraic_geometry	algebraic geometry	1	Mathematical structures	false
+233	topic_tropical_geometry	tropical geometry	2	Mathematical structures	false
+234	topic_tropical_dual_numbers	tropical dual numbers	2	Mathematical structures	true
+235	topic_analysis_of_pdes	analysis of PDEs	1	Mathematical structures	true
+236	topic_mathematical_physics	mathematical physics	1	Mathematical structures	true
+237	topic_geometry_informed_learning	geometry-informed learning	1	Mathematical structures	true
