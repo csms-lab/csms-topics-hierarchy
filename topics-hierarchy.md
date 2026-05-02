@@ -1,0 +1,252 @@
+# CSMS Topics Hierarchy
+
+Date: 2026-05-01
+
+Conventions:
+
+- plain items are hierarchy nodes
+- items marked `[cited]` were sharpened mainly from cited-paper metadata or abstract text
+
+- Computational mathematics
+  - Numerical analysis
+    - inverse problems
+      - Bayesian inverse problems
+        - Bayesian level set method
+        - piecewise-constant reconstructions
+      - Markov chain Monte Carlo for inverse problems
+    - uncertainty quantification
+      - likelihood-free inference
+      - expected information gain
+      - measure transport
+      - manufacturing variability
+        - transonic airfoil manufacturing error [cited]
+        - compressor blade geometric variability [cited]
+      - multidisciplinary uncertainty
+        - satellite system design [cited]
+      - hypersonic propulsion uncertainty
+        - HyShot II scramjet [cited]
+    - interface-tracking methods
+      - level set methods
+        - Hamilton-Jacobi equations
+        - propagating interfaces
+        - fluid interfaces
+      - fast marching methods
+      - free-boundary formulations
+  - Optimization
+    - Bayesian optimization
+      - foundational formulations
+        - Bayesian methods for seeking the extremum [cited]
+        - efficient global optimization [cited]
+        - tutorial Bayesian optimization [cited]
+      - Gaussian-process Bayesian optimization
+        - practical Bayesian optimization for hyperparameter tuning [cited]
+        - adaptive dimensionality reduction for sequential optimization [cited]
+      - acquisition and value-of-information methods
+        - knowledge-gradient methods [cited]
+        - exploration-exploitation tradeoffs [cited]
+      - batch and parallel Bayesian optimization
+        - batch Bayesian optimization
+        - hybrid batch Bayesian optimization [cited]
+        - multi-objective Bayesian optimization
+        - nested subspace Bayesian optimization
+        - high-dimensional Bayesian optimization
+    - design optimization
+      - decision-focused optimization
+        - exact characterization for linear optimization
+      - aerodynamic shape optimization
+      - shape optimization
+    - variational methods
+      - calculus of variations
+      - Euler equations
+  - Model reduction and surrogate modeling
+    - active subspaces
+      - theory and computation
+        - active subspace methods for kriging surfaces [cited]
+        - computing active subspaces with Monte Carlo [cited]
+      - low-dimensional structure
+        - sequential learning of active subspaces
+        - adaptive active subspaces
+        - one-dimensional active subspaces [cited]
+      - engineering applications
+        - active subspaces for shape optimization [cited]
+        - active-subspace materials design
+        - transonic wing design [cited]
+        - satellite uncertainty quantification [cited]
+        - scramjet uncertainty quantification [cited]
+    - projection-based model reduction [cited]
+      - parametric dynamical systems [cited]
+      - Petrov-Galerkin projection [cited]
+      - Krylov subspace methods [cited]
+      - interpolation [cited]
+      - proper orthogonal decomposition [cited]
+      - balanced truncation [cited]
+      - greedy algorithms [cited]
+    - surrogate models
+      - kriging
+      - Gaussian processes
+      - response surfaces
+    - sensitivity analysis
+      - variance-based sensitivity analysis
+      - factor prioritization
+
+- Machine learning and AI
+  - machine learning methods
+    - generative modeling
+      - variational autoencoders
+        - uncertainty-guided fine-tuning for molecular design
+      - diffusion models
+    - representation learning
+    - neural computation
+      - backpropagation complexity
+      - tropical neural networks
+    - scientific machine learning
+    - multimodal learning
+  - foundation models and agents
+    - foundation models for science
+      - foundation models for materials science
+      - foundation models for materials discovery
+    - large language models
+      - abstract reasoning in large language models
+      - long chain-of-thought
+      - chain-of-thought theory
+    - autonomous agents
+      - science exocortex
+      - self-learning from search traces
+    - vision-language-model agents
+      - reflective Monte Carlo tree search
+  - reasoning and structured inference
+    - automated reasoning
+      - bucket elimination
+      - theorem proving
+      - exact inference in belief networks
+      - exact inference in constraint networks
+      - junction-tree style decompositions
+    - symbolic mechanisms
+    - probabilistic reasoning
+    - graphical-model inference
+  - parallelization of sequential computation
+    - sequence-length parallelism
+    - parallel sequence models
+      - parallelizing non-linear sequential models
+    - parallel neural operations
+      - DeepPCR
+    - distributed and parallel scientific computing
+
+- Sequential decision making
+  - reinforcement learning
+    - dynamic programming
+    - model-based reinforcement learning
+  - planning under uncertainty
+    - Monte Carlo tree search
+      - core planning papers
+        - bandit based Monte-Carlo planning [cited]
+        - Bayesian optimized Monte Carlo planning
+      - bandit foundations
+        - bandit algorithms for tree search [cited]
+        - finite-time analysis of the multiarmed bandit problem [cited]
+        - multi-armed bandits with episode context [cited]
+      - survey structure
+        - bandit-based methods [cited]
+        - game search [cited]
+        - computer Go [cited]
+        - upper confidence bounds [cited]
+        - upper confidence bounds for trees [cited]
+        - UCT [cited]
+      - exploration strategies
+        - Boltzmann exploration
+        - progressive bias
+        - progressive unpruning
+        - pure exploration in batch settings
+      - abstraction in search
+        - iteratively refining state abstractions
+        - probability tree state abstraction
+      - robustness and estimation
+        - doubly robust MCTS
+      - information reuse
+        - hidden-information games
+        - information capture and reuse
+      - action-space structure
+        - continuous action spaces with execution uncertainty
+        - Voronoi optimistic optimization
+      - proof-oriented search
+        - proof-number-based MCTS
+      - embodied planning
+        - parallel MCTS with batched rigid-body simulations
+      - survey and synthesis
+        - survey of Monte Carlo tree search methods [cited]
+    - exploratory learning
+      - test-time search for agents
+      - exploratory learning
+  - sequential information collection
+    - knowledge-gradient policy [cited]
+    - ranking and selection [cited]
+    - Bayesian statistics [cited]
+    - sequential decision analysis [cited]
+  - optimal decision data
+    - what data enables optimal decisions
+
+- Physical sciences and continuum systems
+  - materials science
+    - materials discovery
+      - AI for materials science
+      - data-driven materials discovery
+      - Bayesian model averaging for materials discovery
+      - self-driving laboratories
+    - materials design
+      - process-structure-property relationships
+      - microstructure-sensitive design
+      - multi-information-source fusion
+      - multisource information fusion
+      - ICME
+      - inverse design for precipitation heat treatments
+      - dual-phase materials
+      - graded TPMS structures [cited]
+      - gradient nanostructured materials [cited]
+    - functional materials
+      - lead-free perovskite nanocrystals
+    - soft materials
+      - block copolymer self-assembly
+      - diblock copolymer microphase separation
+      - Ohta-Kawasaki model
+  - phase behavior and interfaces
+    - phase-field and free-energy models
+      - Cahn-Hilliard equation
+      - Cahn-Hilliard functional with long-range interactions
+      - nonlocal Cahn-Hilliard functional
+    - phase diagrams
+      - spectral simulation of the phase diagram
+    - multiphase flow
+  - fluids and kinetic theory
+    - Boltzmann kinetic theory
+    - derivation of fluid equations
+    - Hilbert's sixth problem
+
+- Robotics and geometry
+  - motion planning
+    - non-Euclidean motion planning
+      - graphs of geodesically convex sets
+    - long-horizon episodic robot planning
+    - robot planning in clutter
+  - geometry for robotics
+    - Riemannian geometry
+    - robot motion learning
+    - robot motion control
+    - motion generation
+  - simulation for planning
+    - rigid-body simulation
+    - batched simulation
+    - clutter retrieval
+  - referenced neighboring topics
+    - agile robotic locomotion [cited]
+    - rapid motor adaptation for legged robots [cited]
+    - dexterous in-hand manipulation [cited]
+    - humanoids and quadrupeds [cited]
+    - exoskeletons and robotic hands [cited]
+
+- Mathematical structures
+  - algebraic geometry
+    - tropical geometry
+    - tropical dual numbers
+  - analysis of PDEs
+  - mathematical physics
+  - geometry-informed learning
