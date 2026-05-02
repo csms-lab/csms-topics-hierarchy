@@ -1,12 +1,3 @@
-# CSMS Topics Hierarchy
-
-Date: 2026-05-01
-
-Conventions:
-
-- plain items are hierarchy nodes
-- items marked `[cited]` were sharpened mainly from cited-paper metadata or abstract text
-
 - Computational mathematics
   - Numerical analysis
     - inverse problems
@@ -19,12 +10,12 @@ Conventions:
       - expected information gain
       - measure transport
       - manufacturing variability
-        - transonic airfoil manufacturing error [cited]
-        - compressor blade geometric variability [cited]
+        - transonic airfoil manufacturing error
+        - compressor blade geometric variability
       - multidisciplinary uncertainty
-        - satellite system design [cited]
+        - satellite system design
       - hypersonic propulsion uncertainty
-        - HyShot II scramjet [cited]
+        - HyShot II scramjet
     - interface-tracking methods
       - level set methods
         - Hamilton-Jacobi equations
@@ -35,18 +26,18 @@ Conventions:
   - Optimization
     - Bayesian optimization
       - foundational formulations
-        - Bayesian methods for seeking the extremum [cited]
-        - efficient global optimization [cited]
-        - tutorial Bayesian optimization [cited]
+        - Bayesian methods for seeking the extremum
+        - efficient global optimization
+        - tutorial Bayesian optimization
       - Gaussian-process Bayesian optimization
-        - practical Bayesian optimization for hyperparameter tuning [cited]
-        - adaptive dimensionality reduction for sequential optimization [cited]
+        - practical Bayesian optimization for hyperparameter tuning
+        - adaptive dimensionality reduction for sequential optimization
       - acquisition and value-of-information methods
-        - knowledge-gradient methods [cited]
-        - exploration-exploitation tradeoffs [cited]
+        - knowledge-gradient methods
+        - exploration-exploitation tradeoffs
       - batch and parallel Bayesian optimization
         - batch Bayesian optimization
-        - hybrid batch Bayesian optimization [cited]
+        - hybrid batch Bayesian optimization
         - multi-objective Bayesian optimization
         - nested subspace Bayesian optimization
         - high-dimensional Bayesian optimization
@@ -61,26 +52,26 @@ Conventions:
   - Model reduction and surrogate modeling
     - active subspaces
       - theory and computation
-        - active subspace methods for kriging surfaces [cited]
-        - computing active subspaces with Monte Carlo [cited]
+        - active subspace methods for kriging surfaces
+        - computing active subspaces with Monte Carlo
       - low-dimensional structure
         - sequential learning of active subspaces
         - adaptive active subspaces
-        - one-dimensional active subspaces [cited]
+        - one-dimensional active subspaces
       - engineering applications
-        - active subspaces for shape optimization [cited]
+        - active subspaces for shape optimization
         - active-subspace materials design
-        - transonic wing design [cited]
-        - satellite uncertainty quantification [cited]
-        - scramjet uncertainty quantification [cited]
-    - projection-based model reduction [cited]
-      - parametric dynamical systems [cited]
-      - Petrov-Galerkin projection [cited]
-      - Krylov subspace methods [cited]
-      - interpolation [cited]
-      - proper orthogonal decomposition [cited]
-      - balanced truncation [cited]
-      - greedy algorithms [cited]
+        - transonic wing design
+        - satellite uncertainty quantification
+        - scramjet uncertainty quantification
+    - projection-based model reduction
+      - parametric dynamical systems
+      - Petrov-Galerkin projection
+      - Krylov subspace methods
+      - interpolation
+      - proper orthogonal decomposition
+      - balanced truncation
+      - greedy algorithms
     - surrogate models
       - kriging
       - Gaussian processes
@@ -139,19 +130,19 @@ Conventions:
   - planning under uncertainty
     - Monte Carlo tree search
       - core planning papers
-        - bandit based Monte-Carlo planning [cited]
+        - bandit based Monte-Carlo planning
         - Bayesian optimized Monte Carlo planning
       - bandit foundations
-        - bandit algorithms for tree search [cited]
-        - finite-time analysis of the multiarmed bandit problem [cited]
-        - multi-armed bandits with episode context [cited]
+        - bandit algorithms for tree search
+        - finite-time analysis of the multiarmed bandit problem
+        - multi-armed bandits with episode context
       - survey structure
-        - bandit-based methods [cited]
-        - game search [cited]
-        - computer Go [cited]
-        - upper confidence bounds [cited]
-        - upper confidence bounds for trees [cited]
-        - UCT [cited]
+        - bandit-based methods
+        - game search
+        - computer Go
+        - upper confidence bounds
+        - upper confidence bounds for trees
+        - UCT
       - exploration strategies
         - Boltzmann exploration
         - progressive bias
@@ -173,15 +164,15 @@ Conventions:
       - embodied planning
         - parallel MCTS with batched rigid-body simulations
       - survey and synthesis
-        - survey of Monte Carlo tree search methods [cited]
+        - survey of Monte Carlo tree search methods
     - exploratory learning
       - test-time search for agents
       - exploratory learning
   - sequential information collection
-    - knowledge-gradient policy [cited]
-    - ranking and selection [cited]
-    - Bayesian statistics [cited]
-    - sequential decision analysis [cited]
+    - knowledge-gradient policy
+    - ranking and selection
+    - Bayesian statistics
+    - sequential decision analysis
   - optimal decision data
     - what data enables optimal decisions
 
@@ -200,8 +191,8 @@ Conventions:
       - ICME
       - inverse design for precipitation heat treatments
       - dual-phase materials
-      - graded TPMS structures [cited]
-      - gradient nanostructured materials [cited]
+      - graded TPMS structures
+      - gradient nanostructured materials
     - functional materials
       - lead-free perovskite nanocrystals
     - soft materials
@@ -237,11 +228,11 @@ Conventions:
     - batched simulation
     - clutter retrieval
   - referenced neighboring topics
-    - agile robotic locomotion [cited]
-    - rapid motor adaptation for legged robots [cited]
-    - dexterous in-hand manipulation [cited]
-    - humanoids and quadrupeds [cited]
-    - exoskeletons and robotic hands [cited]
+    - agile robotic locomotion
+    - rapid motor adaptation for legged robots
+    - dexterous in-hand manipulation
+    - humanoids and quadrupeds
+    - exoskeletons and robotic hands
 
 - Mathematical structures
   - algebraic geometry
