@@ -27,6 +27,7 @@ These folders give the present structure a clear bias toward sequential decision
 The current artifacts were generated from three main sources:
 
 1. Local paper metadata and front matter
+   - folder names
    - PDF metadata fields
    - embedded keyword fields when present
    - title phrases and front-matter terminology
@@ -45,13 +46,19 @@ The current artifacts were generated from three main sources:
 
 - `topics-hierarchy.txt` is the original nested-list view used to seed the structure.
 - `topics-flat.tsv` is the flat node inventory. Each row contains a stable topic ID, a zero-based index, a depth hint inherited from the seed hierarchy, a top-domain label, and a provisional terminal flag.
-- `topics.graphml` is the polyhierarchical graph representation in a standard exchange format. It contains `238` topic nodes and `255` directed edges in the current pass.
+- `topics.graphml` is the polyhierarchical graph representation in a standard exchange format. It contains `238` topic nodes and `255` directed edges in the current pass, along with corpus-derived node and edge metrics.
+- `topic-corpus-stats.tsv` summarizes per-topic direct and propagated paper counts.
+- `edge-corpus-stats.tsv` summarizes per-edge paper overlap counts and normalized overlap weights.
 
 In the GraphML file:
 
 - `child_of` edges encode the primary hierarchy
 - additional curated cross-links encode secondary parent relationships where a topic naturally belongs under more than one parent
 - `terminal=true` currently marks nodes with no child topics in the present graph
+- `paper_count` counts local papers matched either directly to a topic or to topics nested beneath it in the current graph
+- `paper_overlap_count` counts local papers supporting both endpoints of an edge
+
+These corpus weights are approximate phrase-matching metrics, not hand-curated paper annotations. They are derived from folder names, PDF metadata, extracted keywords, title phrases, front excerpts, and mined reference phrases in the current local corpus.
 
 ## Coverage And Limitations
 

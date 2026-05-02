@@ -1,0 +1,239 @@
+index	topic_id	label	top_domain	depth_hint	direct_paper_count	paper_count	paper_fraction
+0	topic_computational_mathematics	Computational mathematics	Computational mathematics	0	0	26	0.509804
+1	topic_numerical_analysis	Numerical analysis	Computational mathematics	1	1	10	0.196078
+2	topic_inverse_problems	inverse problems	Computational mathematics	2	2	2	0.039216
+3	topic_bayesian_inverse_problems	Bayesian inverse problems	Computational mathematics	3	1	2	0.039216
+4	topic_bayesian_level_set_method	Bayesian level set method	Computational mathematics	4	2	2	0.039216
+5	topic_piecewise_constant_reconstructions	piecewise-constant reconstructions	Computational mathematics	4	1	1	0.019608
+6	topic_markov_chain_monte_carlo_for_inverse_problems	Markov chain Monte Carlo for inverse problems	Computational mathematics	3	0	0	0.0
+7	topic_uncertainty_quantification	uncertainty quantification	Computational mathematics	2	6	7	0.137255
+8	topic_likelihood_free_inference	likelihood-free inference	Computational mathematics	3	1	1	0.019608
+9	topic_expected_information_gain	expected information gain	Computational mathematics	3	1	1	0.019608
+10	topic_measure_transport	measure transport	Computational mathematics	3	1	1	0.019608
+11	topic_manufacturing_variability	manufacturing variability	Computational mathematics	3	0	0	0.0
+12	topic_transonic_airfoil_manufacturing_error	transonic airfoil manufacturing error	Computational mathematics	4	0	0	0.0
+13	topic_compressor_blade_geometric_variability	compressor blade geometric variability	Computational mathematics	4	0	0	0.0
+14	topic_multidisciplinary_uncertainty	multidisciplinary uncertainty	Computational mathematics	3	2	2	0.039216
+15	topic_satellite_system_design	satellite system design	Computational mathematics	4	2	2	0.039216
+16	topic_hypersonic_propulsion_uncertainty	hypersonic propulsion uncertainty	Computational mathematics	3	0	2	0.039216
+17	topic_hyshot_ii_scramjet	HyShot II scramjet	Computational mathematics	4	2	2	0.039216
+18	topic_interface_tracking_methods	interface-tracking methods	Computational mathematics	2	0	5	0.098039
+19	topic_level_set_methods	level set methods	Computational mathematics	3	5	5	0.098039
+20	topic_hamilton_jacobi_equations	Hamilton-Jacobi equations	Computational mathematics	4	0	0	0.0
+21	topic_propagating_interfaces	propagating interfaces	Computational mathematics	4	1	1	0.019608
+22	topic_fluid_interfaces	fluid interfaces	Computational mathematics	4	1	1	0.019608
+23	topic_fast_marching_methods	fast marching methods	Computational mathematics	3	1	1	0.019608
+24	topic_free_boundary_formulations	free-boundary formulations	Computational mathematics	3	0	0	0.0
+25	topic_optimization	Optimization	Computational mathematics	1	18	19	0.372549
+26	topic_bayesian_optimization	Bayesian optimization	Computational mathematics	2	6	7	0.137255
+27	topic_foundational_formulations	foundational formulations	Computational mathematics	3	0	2	0.039216
+28	topic_bayesian_methods_for_seeking_the_extremum	Bayesian methods for seeking the extremum	Computational mathematics	4	2	2	0.039216
+29	topic_efficient_global_optimization	efficient global optimization	Computational mathematics	4	2	2	0.039216
+30	topic_tutorial_bayesian_optimization	tutorial Bayesian optimization	Computational mathematics	4	0	0	0.0
+31	topic_gaussian_process_bayesian_optimization	Gaussian-process Bayesian optimization	Computational mathematics	3	0	0	0.0
+32	topic_practical_bayesian_optimization_for_hyperparameter_tuning	practical Bayesian optimization for hyperparameter tuning	Computational mathematics	4	0	0	0.0
+33	topic_adaptive_dimensionality_reduction_for_sequential_optimization	adaptive dimensionality reduction for sequential optimization	Computational mathematics	4	0	0	0.0
+34	topic_acquisition_and_value_of_information_methods	acquisition and value-of-information methods	Computational mathematics	3	0	1	0.019608
+35	topic_knowledge_gradient_methods	knowledge-gradient methods	Computational mathematics	4	1	1	0.019608
+36	topic_exploration_exploitation_tradeoffs	exploration-exploitation tradeoffs	Computational mathematics	4	1	1	0.019608
+37	topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	Computational mathematics	3	0	5	0.098039
+38	topic_batch_bayesian_optimization	batch Bayesian optimization	Computational mathematics	4	3	3	0.058824
+39	topic_hybrid_batch_bayesian_optimization	hybrid batch Bayesian optimization	Computational mathematics	4	1	1	0.019608
+40	topic_multi_objective_bayesian_optimization	multi-objective Bayesian optimization	Computational mathematics	4	1	1	0.019608
+41	topic_nested_subspace_bayesian_optimization	nested subspace Bayesian optimization	Computational mathematics	4	0	0	0.0
+42	topic_high_dimensional_bayesian_optimization	high-dimensional Bayesian optimization	Computational mathematics	4	2	2	0.039216
+43	topic_design_optimization	design optimization	Computational mathematics	2	0	3	0.058824
+44	topic_decision_focused_optimization	decision-focused optimization	Computational mathematics	3	0	1	0.019608
+45	topic_exact_characterization_for_linear_optimization	exact characterization for linear optimization	Computational mathematics	4	1	1	0.019608
+46	topic_aerodynamic_shape_optimization	aerodynamic shape optimization	Computational mathematics	3	2	2	0.039216
+47	topic_shape_optimization	shape optimization	Computational mathematics	3	2	2	0.039216
+48	topic_variational_methods	variational methods	Computational mathematics	2	0	1	0.019608
+49	topic_calculus_of_variations	calculus of variations	Computational mathematics	3	1	1	0.019608
+50	topic_euler_equations	Euler equations	Computational mathematics	3	0	0	0.0
+51	topic_model_reduction_and_surrogate_modeling	Model reduction and surrogate modeling	Computational mathematics	1	0	5	0.098039
+52	topic_active_subspaces	active subspaces	Computational mathematics	2	3	3	0.058824
+53	topic_theory_and_computation	theory and computation	Computational mathematics	3	0	1	0.019608
+54	topic_active_subspace_methods_for_kriging_surfaces	active subspace methods for kriging surfaces	Computational mathematics	4	0	0	0.0
+55	topic_computing_active_subspaces_with_monte_carlo	computing active subspaces with Monte Carlo	Computational mathematics	4	1	1	0.019608
+56	topic_low_dimensional_structure	low-dimensional structure	Computational mathematics	3	0	1	0.019608
+57	topic_sequential_learning_of_active_subspaces	sequential learning of active subspaces	Computational mathematics	4	1	1	0.019608
+58	topic_adaptive_active_subspaces	adaptive active subspaces	Computational mathematics	4	0	0	0.0
+59	topic_one_dimensional_active_subspaces	one-dimensional active subspaces	Computational mathematics	4	0	0	0.0
+60	topic_engineering_applications	engineering applications	Computational mathematics	3	0	2	0.039216
+61	topic_active_subspaces_for_shape_optimization	active subspaces for shape optimization	Computational mathematics	4	2	2	0.039216
+62	topic_active_subspace_materials_design	active-subspace materials design	Computational mathematics	4	0	0	0.0
+63	topic_transonic_wing_design	transonic wing design	Computational mathematics	4	0	0	0.0
+64	topic_satellite_uncertainty_quantification	satellite uncertainty quantification	Computational mathematics	4	0	0	0.0
+65	topic_scramjet_uncertainty_quantification	scramjet uncertainty quantification	Computational mathematics	4	0	0	0.0
+66	topic_projection_based_model_reduction	projection-based model reduction	Computational mathematics	2	2	3	0.058824
+67	topic_parametric_dynamical_systems	parametric dynamical systems	Computational mathematics	3	2	2	0.039216
+68	topic_petrov_galerkin_projection	Petrov-Galerkin projection	Computational mathematics	3	0	0	0.0
+69	topic_krylov_subspace_methods	Krylov subspace methods	Computational mathematics	3	1	1	0.019608
+70	topic_interpolation	interpolation	Computational mathematics	3	0	0	0.0
+71	topic_proper_orthogonal_decomposition	proper orthogonal decomposition	Computational mathematics	3	0	0	0.0
+72	topic_balanced_truncation	balanced truncation	Computational mathematics	3	0	0	0.0
+73	topic_greedy_algorithms	greedy algorithms	Computational mathematics	3	0	0	0.0
+74	topic_surrogate_models	surrogate models	Computational mathematics	2	2	4	0.078431
+75	topic_kriging	kriging	Computational mathematics	3	2	2	0.039216
+76	topic_gaussian_processes	Gaussian processes	Computational mathematics	3	4	4	0.078431
+77	topic_response_surfaces	response surfaces	Computational mathematics	3	0	0	0.0
+78	topic_sensitivity_analysis	sensitivity analysis	Computational mathematics	2	2	4	0.078431
+79	topic_variance_based_sensitivity_analysis	variance-based sensitivity analysis	Computational mathematics	3	0	0	0.0
+80	topic_factor_prioritization	factor prioritization	Computational mathematics	3	0	0	0.0
+81	topic_machine_learning_and_ai	Machine learning and AI	Machine learning and AI	0	0	24	0.470588
+82	topic_machine_learning_methods	machine learning methods	Machine learning and AI	1	16	19	0.372549
+83	topic_generative_modeling	generative modeling	Machine learning and AI	2	0	2	0.039216
+84	topic_variational_autoencoders	variational autoencoders	Machine learning and AI	3	1	1	0.019608
+85	topic_uncertainty_guided_fine_tuning_for_molecular_design	uncertainty-guided fine-tuning for molecular design	Machine learning and AI	4	0	0	0.0
+86	topic_diffusion_models	diffusion models	Machine learning and AI	3	1	1	0.019608
+87	topic_representation_learning	representation learning	Machine learning and AI	2	0	0	0.0
+88	topic_neural_computation	neural computation	Machine learning and AI	2	0	1	0.019608
+89	topic_backpropagation_complexity	backpropagation complexity	Machine learning and AI	3	0	0	0.0
+90	topic_tropical_neural_networks	tropical neural networks	Machine learning and AI	3	1	1	0.019608
+91	topic_scientific_machine_learning	scientific machine learning	Machine learning and AI	2	0	0	0.0
+92	topic_multimodal_learning	multimodal learning	Machine learning and AI	2	0	0	0.0
+93	topic_foundation_models_and_agents	foundation models and agents	Machine learning and AI	1	0	10	0.196078
+94	topic_foundation_models_for_science	foundation models for science	Machine learning and AI	2	0	4	0.078431
+95	topic_foundation_models_for_materials_science	foundation models for materials science	Machine learning and AI	3	4	4	0.078431
+96	topic_foundation_models_for_materials_discovery	foundation models for materials discovery	Machine learning and AI	3	1	1	0.019608
+97	topic_large_language_models	large language models	Machine learning and AI	2	6	6	0.117647
+98	topic_abstract_reasoning_in_large_language_models	abstract reasoning in large language models	Machine learning and AI	3	1	1	0.019608
+99	topic_long_chain_of_thought	long chain-of-thought	Machine learning and AI	3	1	1	0.019608
+100	topic_chain_of_thought_theory	chain-of-thought theory	Machine learning and AI	3	0	0	0.0
+101	topic_autonomous_agents	autonomous agents	Machine learning and AI	2	2	3	0.058824
+102	topic_science_exocortex	science exocortex	Machine learning and AI	3	1	1	0.019608
+103	topic_self_learning_from_search_traces	self-learning from search traces	Machine learning and AI	3	0	0	0.0
+104	topic_vision_language_model_agents	vision-language-model agents	Machine learning and AI	2	0	2	0.039216
+105	topic_reflective_monte_carlo_tree_search	reflective Monte Carlo tree search	Machine learning and AI	3	2	2	0.039216
+106	topic_reasoning_and_structured_inference	reasoning and structured inference	Machine learning and AI	1	0	2	0.039216
+107	topic_automated_reasoning	automated reasoning	Machine learning and AI	2	1	1	0.019608
+108	topic_bucket_elimination	bucket elimination	Machine learning and AI	3	1	1	0.019608
+109	topic_theorem_proving	theorem proving	Machine learning and AI	3	1	1	0.019608
+110	topic_exact_inference_in_belief_networks	exact inference in belief networks	Machine learning and AI	3	0	0	0.0
+111	topic_exact_inference_in_constraint_networks	exact inference in constraint networks	Machine learning and AI	3	0	0	0.0
+112	topic_junction_tree_style_decompositions	junction-tree style decompositions	Machine learning and AI	3	0	0	0.0
+113	topic_symbolic_mechanisms	symbolic mechanisms	Machine learning and AI	2	1	1	0.019608
+114	topic_probabilistic_reasoning	probabilistic reasoning	Machine learning and AI	2	1	1	0.019608
+115	topic_graphical_model_inference	graphical-model inference	Machine learning and AI	2	0	0	0.0
+116	topic_parallelization_of_sequential_computation	parallelization of sequential computation	Machine learning and AI	1	0	2	0.039216
+117	topic_sequence_length_parallelism	sequence-length parallelism	Machine learning and AI	2	0	0	0.0
+118	topic_parallel_sequence_models	parallel sequence models	Machine learning and AI	2	0	1	0.019608
+119	topic_parallelizing_non_linear_sequential_models	parallelizing non-linear sequential models	Machine learning and AI	3	1	1	0.019608
+120	topic_parallel_neural_operations	parallel neural operations	Machine learning and AI	2	0	1	0.019608
+121	topic_deeppcr	DeepPCR	Machine learning and AI	3	1	1	0.019608
+122	topic_distributed_and_parallel_scientific_computing	distributed and parallel scientific computing	Machine learning and AI	2	0	0	0.0
+123	topic_sequential_decision_making	Sequential decision making	Sequential decision making	0	1	20	0.392157
+124	topic_reinforcement_learning	reinforcement learning	Sequential decision making	1	9	11	0.215686
+125	topic_dynamic_programming	dynamic programming	Sequential decision making	2	5	5	0.098039
+126	topic_model_based_reinforcement_learning	model-based reinforcement learning	Sequential decision making	2	1	1	0.019608
+127	topic_planning_under_uncertainty	planning under uncertainty	Sequential decision making	1	1	14	0.27451
+128	topic_monte_carlo_tree_search	Monte Carlo tree search	Sequential decision making	2	14	14	0.27451
+129	topic_core_planning_papers	core planning papers	Sequential decision making	3	0	6	0.117647
+130	topic_bandit_based_monte_carlo_planning	bandit based Monte-Carlo planning	Sequential decision making	4	5	5	0.098039
+131	topic_bayesian_optimized_monte_carlo_planning	Bayesian optimized Monte Carlo planning	Sequential decision making	4	1	1	0.019608
+132	topic_bandit_foundations	bandit foundations	Sequential decision making	3	0	4	0.078431
+133	topic_bandit_algorithms_for_tree_search	bandit algorithms for tree search	Sequential decision making	4	2	2	0.039216
+134	topic_finite_time_analysis_of_the_multiarmed_bandit_problem	finite-time analysis of the multiarmed bandit problem	Sequential decision making	4	2	2	0.039216
+135	topic_multi_armed_bandits_with_episode_context	multi-armed bandits with episode context	Sequential decision making	4	2	2	0.039216
+136	topic_survey_structure	survey structure	Sequential decision making	3	0	6	0.117647
+137	topic_bandit_based_methods	bandit-based methods	Sequential decision making	4	5	5	0.098039
+138	topic_game_search	game search	Sequential decision making	4	1	1	0.019608
+139	topic_computer_go	computer Go	Sequential decision making	4	5	5	0.098039
+140	topic_upper_confidence_bounds	upper confidence bounds	Sequential decision making	4	0	0	0.0
+141	topic_upper_confidence_bounds_for_trees	upper confidence bounds for trees	Sequential decision making	4	0	0	0.0
+142	topic_uct	UCT	Sequential decision making	4	6	6	0.117647
+143	topic_exploration_strategies	exploration strategies	Sequential decision making	3	0	2	0.039216
+144	topic_boltzmann_exploration	Boltzmann exploration	Sequential decision making	4	1	1	0.019608
+145	topic_progressive_bias	progressive bias	Sequential decision making	4	1	1	0.019608
+146	topic_progressive_unpruning	progressive unpruning	Sequential decision making	4	1	1	0.019608
+147	topic_pure_exploration_in_batch_settings	pure exploration in batch settings	Sequential decision making	4	0	0	0.0
+148	topic_abstraction_in_search	abstraction in search	Sequential decision making	3	0	2	0.039216
+149	topic_iteratively_refining_state_abstractions	iteratively refining state abstractions	Sequential decision making	4	2	2	0.039216
+150	topic_probability_tree_state_abstraction	probability tree state abstraction	Sequential decision making	4	1	1	0.019608
+151	topic_robustness_and_estimation	robustness and estimation	Sequential decision making	3	0	0	0.0
+152	topic_doubly_robust_mcts	doubly robust MCTS	Sequential decision making	4	0	0	0.0
+153	topic_information_reuse	information reuse	Sequential decision making	3	1	1	0.019608
+154	topic_hidden_information_games	hidden-information games	Sequential decision making	4	0	0	0.0
+155	topic_information_capture_and_reuse	information capture and reuse	Sequential decision making	4	1	1	0.019608
+156	topic_action_space_structure	action-space structure	Sequential decision making	3	0	2	0.039216
+157	topic_continuous_action_spaces_with_execution_uncertainty	continuous action spaces with execution uncertainty	Sequential decision making	4	1	1	0.019608
+158	topic_voronoi_optimistic_optimization	Voronoi optimistic optimization	Sequential decision making	4	1	1	0.019608
+159	topic_proof_oriented_search	proof-oriented search	Sequential decision making	3	0	0	0.0
+160	topic_proof_number_based_mcts	proof-number-based MCTS	Sequential decision making	4	0	0	0.0
+161	topic_embodied_planning	embodied planning	Sequential decision making	3	0	0	0.0
+162	topic_parallel_mcts_with_batched_rigid_body_simulations	parallel MCTS with batched rigid-body simulations	Sequential decision making	4	0	0	0.0
+163	topic_survey_and_synthesis	survey and synthesis	Sequential decision making	3	0	5	0.098039
+164	topic_survey_of_monte_carlo_tree_search_methods	survey of Monte Carlo tree search methods	Sequential decision making	4	5	5	0.098039
+165	topic_exploratory_learning	exploratory learning	Sequential decision making	2	2	2	0.039216
+166	topic_test_time_search_for_agents	test-time search for agents	Sequential decision making	3	0	0	0.0
+167	topic_exploratory_learning_2	exploratory learning	Sequential decision making	3	2	2	0.039216
+168	topic_sequential_information_collection	sequential information collection	Sequential decision making	1	1	2	0.039216
+169	topic_knowledge_gradient_policy	knowledge-gradient policy	Sequential decision making	2	1	1	0.019608
+170	topic_ranking_and_selection	ranking and selection	Sequential decision making	2	0	0	0.0
+171	topic_bayesian_statistics	Bayesian statistics	Sequential decision making	2	1	1	0.019608
+172	topic_sequential_decision_analysis	sequential decision analysis	Sequential decision making	2	0	0	0.0
+173	topic_optimal_decision_data	optimal decision data	Sequential decision making	1	0	1	0.019608
+174	topic_what_data_enables_optimal_decisions	what data enables optimal decisions	Sequential decision making	2	1	1	0.019608
+175	topic_physical_sciences_and_continuum_systems	Physical sciences and continuum systems	Physical sciences and continuum systems	0	0	12	0.235294
+176	topic_materials_science	materials science	Physical sciences and continuum systems	1	7	11	0.215686
+177	topic_materials_discovery	materials discovery	Physical sciences and continuum systems	2	2	5	0.098039
+178	topic_ai_for_materials_science	AI for materials science	Physical sciences and continuum systems	3	1	4	0.078431
+179	topic_data_driven_materials_discovery	data-driven materials discovery	Physical sciences and continuum systems	3	0	0	0.0
+180	topic_bayesian_model_averaging_for_materials_discovery	Bayesian model averaging for materials discovery	Physical sciences and continuum systems	3	0	0	0.0
+181	topic_self_driving_laboratories	self-driving laboratories	Physical sciences and continuum systems	3	0	0	0.0
+182	topic_materials_design	materials design	Physical sciences and continuum systems	2	3	3	0.058824
+183	topic_process_structure_property_relationships	process-structure-property relationships	Physical sciences and continuum systems	3	1	1	0.019608
+184	topic_microstructure_sensitive_design	microstructure-sensitive design	Physical sciences and continuum systems	3	1	1	0.019608
+185	topic_multi_information_source_fusion	multi-information-source fusion	Physical sciences and continuum systems	3	1	1	0.019608
+186	topic_multisource_information_fusion	multisource information fusion	Physical sciences and continuum systems	3	2	2	0.039216
+187	topic_icme	ICME	Physical sciences and continuum systems	3	2	2	0.039216
+188	topic_inverse_design_for_precipitation_heat_treatments	inverse design for precipitation heat treatments	Physical sciences and continuum systems	3	0	0	0.0
+189	topic_dual_phase_materials	dual-phase materials	Physical sciences and continuum systems	3	1	1	0.019608
+190	topic_graded_tpms_structures	graded TPMS structures	Physical sciences and continuum systems	3	1	1	0.019608
+191	topic_gradient_nanostructured_materials	gradient nanostructured materials	Physical sciences and continuum systems	3	1	1	0.019608
+192	topic_functional_materials	functional materials	Physical sciences and continuum systems	2	0	1	0.019608
+193	topic_lead_free_perovskite_nanocrystals	lead-free perovskite nanocrystals	Physical sciences and continuum systems	3	1	1	0.019608
+194	topic_soft_materials	soft materials	Physical sciences and continuum systems	2	1	2	0.039216
+195	topic_block_copolymer_self_assembly	block copolymer self-assembly	Physical sciences and continuum systems	3	1	1	0.019608
+196	topic_diblock_copolymer_microphase_separation	diblock copolymer microphase separation	Physical sciences and continuum systems	3	0	0	0.0
+197	topic_ohta_kawasaki_model	Ohta-Kawasaki model	Physical sciences and continuum systems	3	0	0	0.0
+198	topic_phase_behavior_and_interfaces	phase behavior and interfaces	Physical sciences and continuum systems	1	0	1	0.019608
+199	topic_phase_field_and_free_energy_models	phase-field and free-energy models	Physical sciences and continuum systems	2	0	1	0.019608
+200	topic_cahn_hilliard_equation	Cahn-Hilliard equation	Physical sciences and continuum systems	3	0	0	0.0
+201	topic_cahn_hilliard_functional_with_long_range_interactions	Cahn-Hilliard functional with long-range interactions	Physical sciences and continuum systems	3	1	1	0.019608
+202	topic_nonlocal_cahn_hilliard_functional	nonlocal Cahn-Hilliard functional	Physical sciences and continuum systems	3	0	0	0.0
+203	topic_phase_diagrams	phase diagrams	Physical sciences and continuum systems	2	0	0	0.0
+204	topic_spectral_simulation_of_the_phase_diagram	spectral simulation of the phase diagram	Physical sciences and continuum systems	3	0	0	0.0
+205	topic_multiphase_flow	multiphase flow	Physical sciences and continuum systems	2	0	0	0.0
+206	topic_fluids_and_kinetic_theory	fluids and kinetic theory	Physical sciences and continuum systems	1	0	1	0.019608
+207	topic_boltzmann_kinetic_theory	Boltzmann kinetic theory	Physical sciences and continuum systems	2	1	1	0.019608
+208	topic_derivation_of_fluid_equations	derivation of fluid equations	Physical sciences and continuum systems	2	1	1	0.019608
+209	topic_hilbert_s_sixth_problem	Hilbert's sixth problem	Physical sciences and continuum systems	2	0	0	0.0
+210	topic_robotics_and_geometry	Robotics and geometry	Robotics and geometry	0	0	3	0.058824
+211	topic_motion_planning	motion planning	Robotics and geometry	1	2	2	0.039216
+212	topic_non_euclidean_motion_planning	non-Euclidean motion planning	Robotics and geometry	2	1	1	0.019608
+213	topic_graphs_of_geodesically_convex_sets	graphs of geodesically convex sets	Robotics and geometry	3	1	1	0.019608
+214	topic_long_horizon_episodic_robot_planning	long-horizon episodic robot planning	Robotics and geometry	2	1	1	0.019608
+215	topic_robot_planning_in_clutter	robot planning in clutter	Robotics and geometry	2	0	0	0.0
+216	topic_geometry_for_robotics	geometry for robotics	Robotics and geometry	1	0	2	0.039216
+217	topic_riemannian_geometry	Riemannian geometry	Robotics and geometry	2	2	2	0.039216
+218	topic_robot_motion_learning	robot motion learning	Robotics and geometry	2	1	1	0.019608
+219	topic_robot_motion_control	robot motion control	Robotics and geometry	2	0	0	0.0
+220	topic_motion_generation	motion generation	Robotics and geometry	2	1	1	0.019608
+221	topic_simulation_for_planning	simulation for planning	Robotics and geometry	1	0	1	0.019608
+222	topic_rigid_body_simulation	rigid-body simulation	Robotics and geometry	2	1	1	0.019608
+223	topic_batched_simulation	batched simulation	Robotics and geometry	2	0	0	0.0
+224	topic_clutter_retrieval	clutter retrieval	Robotics and geometry	2	0	0	0.0
+225	topic_referenced_neighboring_topics	referenced neighboring topics	Robotics and geometry	1	0	2	0.039216
+226	topic_agile_robotic_locomotion	agile robotic locomotion	Robotics and geometry	2	1	1	0.019608
+227	topic_rapid_motor_adaptation_for_legged_robots	rapid motor adaptation for legged robots	Robotics and geometry	2	1	1	0.019608
+228	topic_dexterous_in_hand_manipulation	dexterous in-hand manipulation	Robotics and geometry	2	1	1	0.019608
+229	topic_humanoids_and_quadrupeds	humanoids and quadrupeds	Robotics and geometry	2	0	0	0.0
+230	topic_exoskeletons_and_robotic_hands	exoskeletons and robotic hands	Robotics and geometry	2	1	1	0.019608
+231	topic_mathematical_structures	Mathematical structures	Mathematical structures	0	0	4	0.078431
+232	topic_algebraic_geometry	algebraic geometry	Mathematical structures	1	1	2	0.039216
+233	topic_tropical_geometry	tropical geometry	Mathematical structures	2	1	2	0.039216
+234	topic_tropical_dual_numbers	tropical dual numbers	Mathematical structures	2	1	1	0.019608
+235	topic_analysis_of_pdes	analysis of PDEs	Mathematical structures	1	0	0	0.0
+236	topic_mathematical_physics	mathematical physics	Mathematical structures	1	0	0	0.0
+237	topic_geometry_informed_learning	geometry-informed learning	Mathematical structures	1	0	0	0.0

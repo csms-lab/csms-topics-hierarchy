@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 from collections import defaultdict
+import math
 import os
 from pathlib import Path
 import tempfile
@@ -63,13 +64,23 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def normalize_bool(value: object) -> bool:
-    return str(value).strip().lower() == "true"
-
-
 def node_depth(data: dict[str, object]) -> int:
     try:
         return int(data.get("depth_hint", 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def node_paper_count(data: dict[str, object]) -> int:
+    try:
+        return int(data.get("paper_count", 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def edge_overlap_count(data: dict[str, object]) -> int:
+    try:
+        return int(data.get("paper_overlap_count", 0))
     except (TypeError, ValueError):
         return 0
 
@@ -89,7 +100,7 @@ def layered_positions(graph: nx.DiGraph) -> dict[str, tuple[float, float]]:
         nodes.sort(
             key=lambda n: (
                 graph.nodes[n].get("top_domain", ""),
-                -graph.out_degree(n),
+                -node_paper_count(graph.nodes[n]),
                 graph.nodes[n].get("label", n).lower(),
             )
         )
@@ -103,6 +114,43 @@ def layered_positions(graph: nx.DiGraph) -> dict[str, tuple[float, float]]:
     return pos
 
 
+def node_size(paper_count: int) -> float:
+    return 75.0 + 60.0 * math.sqrt(max(paper_count, 0))
+
+
+def draw_weighted_edges(
+    graph: nx.DiGraph,
+    positions: dict[str, tuple[float, float]],
+    ax: plt.Axes,
+) -> int:
+    weighted_edges = []
+    for source, target, data in graph.edges(data=True):
+        overlap = edge_overlap_count(data)
+        if overlap > 0:
+            weighted_edges.append((source, target, overlap))
+
+    max_overlap = max((overlap for _, _, overlap in weighted_edges), default=1)
+    weighted_edges.sort(key=lambda item: item[2])
+
+    for source, target, overlap in weighted_edges:
+        x1, y1 = positions[source]
+        x2, y2 = positions[target]
+        strength = math.sqrt(overlap / max_overlap)
+        linewidth = 0.25 + 3.0 * strength
+        alpha = 0.04 + 0.52 * strength
+        ax.plot(
+            [x1, x2],
+            [y1, y2],
+            color="#64748b",
+            linewidth=linewidth,
+            alpha=alpha,
+            solid_capstyle="round",
+            zorder=1,
+        )
+
+    return len(weighted_edges)
+
+
 def build_legend(graph: nx.DiGraph) -> list[object]:
     domains = sorted({data.get("top_domain", "") for _, data in graph.nodes(data=True)})
     handles: list[object] = []
@@ -110,25 +158,31 @@ def build_legend(graph: nx.DiGraph) -> list[object]:
         color = DOMAIN_COLORS.get(domain, FALLBACK_COLOR)
         handles.append(Patch(facecolor=color, edgecolor="none", label=domain))
 
-    handles.extend(
-        [
-            Line2D(
-                [0],
-                [0],
-                color="#9ca3af",
-                lw=1.0,
-                label="Primary child_of edge",
-            ),
-            Line2D(
-                [0],
-                [0],
-                color="#0f766e",
-                lw=1.0,
-                linestyle="--",
-                label="Secondary cross-link",
-            ),
-        ]
+    handles.append(
+        Line2D(
+            [0],
+            [0],
+            color="#64748b",
+            lw=2.0,
+            alpha=0.6,
+            label="Edge thickness and opacity ~ paper co-appearance",
+        )
     )
+
+    for sample in (1, 5, 15, 30):
+        handles.append(
+            Line2D(
+                [0],
+                [0],
+                marker="o",
+                color="w",
+                markerfacecolor="#94a3b8",
+                markeredgecolor="#ffffff",
+                markersize=math.sqrt(node_size(sample)) / 1.3,
+                label=f"Node size ~ {sample} papers",
+            )
+        )
+
     return handles
 
 
@@ -146,62 +200,13 @@ def render(graph_path: Path, output_path: Path, dpi: int, label_size: float) -> 
 
     fig, ax = plt.subplots(figsize=(fig_width, fig_height), dpi=dpi)
     ax.set_facecolor("white")
-
-    primary_edges = [
-        (u, v)
-        for u, v, data in graph.edges(data=True)
-        if data.get("provenance", "primary") == "primary"
-    ]
-    secondary_edges = [
-        (u, v)
-        for u, v, data in graph.edges(data=True)
-        if data.get("provenance", "primary") != "primary"
-    ]
-
-    nx.draw_networkx_edges(
-        graph,
-        positions,
-        edgelist=primary_edges,
-        edge_color="#9ca3af",
-        width=0.8,
-        alpha=0.32,
-        arrows=True,
-        arrowstyle="-|>",
-        arrowsize=7,
-        min_source_margin=2,
-        min_target_margin=2,
-        connectionstyle="arc3,rad=0.02",
-        ax=ax,
-    )
-    nx.draw_networkx_edges(
-        graph,
-        positions,
-        edgelist=secondary_edges,
-        edge_color="#0f766e",
-        width=0.9,
-        alpha=0.45,
-        style="dashed",
-        arrows=True,
-        arrowstyle="-|>",
-        arrowsize=7,
-        min_source_margin=2,
-        min_target_margin=2,
-        connectionstyle="arc3,rad=0.14",
-        ax=ax,
-    )
+    nonzero_edges = draw_weighted_edges(graph, positions, ax)
 
     node_colors = []
     node_sizes = []
     for _, data in graph.nodes(data=True):
         node_colors.append(DOMAIN_COLORS.get(data.get("top_domain", ""), FALLBACK_COLOR))
-        depth = node_depth(data)
-        terminal = normalize_bool(data.get("terminal", False))
-        size = 150
-        if depth <= 1:
-            size = 280
-        elif not terminal:
-            size = 190
-        node_sizes.append(size)
+        node_sizes.append(node_size(node_paper_count(data)))
 
     nx.draw_networkx_nodes(
         graph,
@@ -240,8 +245,8 @@ def render(graph_path: Path, output_path: Path, dpi: int, label_size: float) -> 
         0.0,
         1.01,
         (
-            f"{graph.number_of_nodes()} topics, {graph.number_of_edges()} directed edges. "
-            "Columns are depth hints from the seed hierarchy."
+            f"{graph.number_of_nodes()} topics, {nonzero_edges} weighted edges with corpus support. "
+            "Columns are depth hints from the seed hierarchy. Node area tracks paper count."
         ),
         transform=ax.transAxes,
         fontsize=10,
@@ -254,7 +259,7 @@ def render(graph_path: Path, output_path: Path, dpi: int, label_size: float) -> 
         bbox_to_anchor=(1.01, 1.0),
         frameon=False,
         fontsize=10,
-        title="Domains and edge types",
+        title="Domains and corpus weighting",
         title_fontsize=11,
     )
     for text in legend.get_texts():

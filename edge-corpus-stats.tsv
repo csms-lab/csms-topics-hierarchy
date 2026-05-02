@@ -1,0 +1,256 @@
+source	source_label	target	target_label	relation	paper_overlap_count	paper_overlap_jaccard	paper_overlap_cosine
+topic_machine_learning_methods	machine learning methods	topic_machine_learning_and_ai	Machine learning and AI	child_of	19	0.791667	0.889757
+topic_optimization	Optimization	topic_computational_mathematics	Computational mathematics	child_of	19	0.730769	0.85485
+topic_monte_carlo_tree_search	Monte Carlo tree search	topic_planning_under_uncertainty	planning under uncertainty	child_of	14	1.0	1.0
+topic_planning_under_uncertainty	planning under uncertainty	topic_sequential_decision_making	Sequential decision making	child_of	14	0.7	0.83666
+topic_materials_science	materials science	topic_physical_sciences_and_continuum_systems	Physical sciences and continuum systems	child_of	11	0.916667	0.957427
+topic_reinforcement_learning	reinforcement learning	topic_sequential_decision_making	Sequential decision making	child_of	11	0.55	0.74162
+topic_foundation_models_and_agents	foundation models and agents	topic_machine_learning_and_ai	Machine learning and AI	child_of	10	0.416667	0.645497
+topic_numerical_analysis	Numerical analysis	topic_computational_mathematics	Computational mathematics	child_of	10	0.384615	0.620174
+topic_uncertainty_quantification	uncertainty quantification	topic_numerical_analysis	Numerical analysis	child_of	7	0.7	0.83666
+topic_bayesian_optimization	Bayesian optimization	topic_optimization	Optimization	child_of	7	0.368421	0.606977
+topic_uct	UCT	topic_survey_structure	survey structure	child_of	6	1.0	1.0
+topic_large_language_models	large language models	topic_foundation_models_and_agents	foundation models and agents	child_of	6	0.6	0.774597
+topic_core_planning_papers	core planning papers	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	6	0.428571	0.654654
+topic_survey_structure	survey structure	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	6	0.428571	0.654654
+topic_level_set_methods	level set methods	topic_interface_tracking_methods	interface-tracking methods	child_of	5	1.0	1.0
+topic_survey_of_monte_carlo_tree_search_methods	survey of Monte Carlo tree search methods	topic_survey_and_synthesis	survey and synthesis	child_of	5	1.0	1.0
+topic_bandit_based_monte_carlo_planning	bandit based Monte-Carlo planning	topic_core_planning_papers	core planning papers	child_of	5	0.833333	0.912871
+topic_bandit_based_methods	bandit-based methods	topic_survey_structure	survey structure	child_of	5	0.833333	0.912871
+topic_computer_go	computer Go	topic_survey_structure	survey structure	child_of	5	0.833333	0.912871
+topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	topic_bayesian_optimization	Bayesian optimization	child_of	5	0.714286	0.845154
+topic_interface_tracking_methods	interface-tracking methods	topic_numerical_analysis	Numerical analysis	child_of	5	0.5	0.707107
+topic_dynamic_programming	dynamic programming	topic_reinforcement_learning	reinforcement learning	child_of	5	0.454545	0.6742
+topic_materials_discovery	materials discovery	topic_materials_science	materials science	child_of	5	0.454545	0.6742
+topic_survey_and_synthesis	survey and synthesis	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	5	0.357143	0.597614
+topic_model_reduction_and_surrogate_modeling	Model reduction and surrogate modeling	topic_computational_mathematics	Computational mathematics	child_of	5	0.192308	0.438529
+topic_foundation_models_for_materials_science	foundation models for materials science	topic_ai_for_materials_science	AI for materials science	child_of	4	1.0	1.0
+topic_foundation_models_for_materials_science	foundation models for materials science	topic_foundation_models_for_science	foundation models for science	child_of	4	1.0	1.0
+topic_gaussian_processes	Gaussian processes	topic_surrogate_models	surrogate models	child_of	4	1.0	1.0
+topic_ai_for_materials_science	AI for materials science	topic_materials_discovery	materials discovery	child_of	4	0.8	0.894427
+topic_sensitivity_analysis	sensitivity analysis	topic_model_reduction_and_surrogate_modeling	Model reduction and surrogate modeling	child_of	4	0.8	0.894427
+topic_surrogate_models	surrogate models	topic_model_reduction_and_surrogate_modeling	Model reduction and surrogate modeling	child_of	4	0.8	0.894427
+topic_foundation_models_for_science	foundation models for science	topic_foundation_models_and_agents	foundation models and agents	child_of	4	0.4	0.632456
+topic_bandit_foundations	bandit foundations	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	4	0.285714	0.534522
+topic_active_subspaces	active subspaces	topic_sensitivity_analysis	sensitivity analysis	child_of	3	0.75	0.866025
+topic_active_subspaces	active subspaces	topic_model_reduction_and_surrogate_modeling	Model reduction and surrogate modeling	child_of	3	0.6	0.774597
+topic_batch_bayesian_optimization	batch Bayesian optimization	topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	child_of	3	0.6	0.774597
+topic_projection_based_model_reduction	projection-based model reduction	topic_model_reduction_and_surrogate_modeling	Model reduction and surrogate modeling	child_of	3	0.6	0.774597
+topic_autonomous_agents	autonomous agents	topic_foundation_models_and_agents	foundation models and agents	child_of	3	0.3	0.547723
+topic_materials_design	materials design	topic_materials_science	materials science	child_of	3	0.272727	0.522233
+topic_design_optimization	design optimization	topic_optimization	Optimization	child_of	3	0.157895	0.39736
+topic_active_subspaces_for_shape_optimization	active subspaces for shape optimization	topic_aerodynamic_shape_optimization	aerodynamic shape optimization	child_of	2	1.0	1.0
+topic_active_subspaces_for_shape_optimization	active subspaces for shape optimization	topic_engineering_applications	engineering applications	child_of	2	1.0	1.0
+topic_bayesian_inverse_problems	Bayesian inverse problems	topic_inverse_problems	inverse problems	child_of	2	1.0	1.0
+topic_bayesian_level_set_method	Bayesian level set method	topic_bayesian_inverse_problems	Bayesian inverse problems	child_of	2	1.0	1.0
+topic_bayesian_methods_for_seeking_the_extremum	Bayesian methods for seeking the extremum	topic_foundational_formulations	foundational formulations	child_of	2	1.0	1.0
+topic_efficient_global_optimization	efficient global optimization	topic_foundational_formulations	foundational formulations	child_of	2	1.0	1.0
+topic_exploratory_learning_2	exploratory learning	topic_exploratory_learning	exploratory learning	child_of	2	1.0	1.0
+topic_hyshot_ii_scramjet	HyShot II scramjet	topic_hypersonic_propulsion_uncertainty	hypersonic propulsion uncertainty	child_of	2	1.0	1.0
+topic_iteratively_refining_state_abstractions	iteratively refining state abstractions	topic_abstraction_in_search	abstraction in search	child_of	2	1.0	1.0
+topic_reflective_monte_carlo_tree_search	reflective Monte Carlo tree search	topic_vision_language_model_agents	vision-language-model agents	child_of	2	1.0	1.0
+topic_riemannian_geometry	Riemannian geometry	topic_geometry_for_robotics	geometry for robotics	child_of	2	1.0	1.0
+topic_satellite_system_design	satellite system design	topic_multidisciplinary_uncertainty	multidisciplinary uncertainty	child_of	2	1.0	1.0
+topic_tropical_geometry	tropical geometry	topic_algebraic_geometry	algebraic geometry	child_of	2	1.0	1.0
+topic_aerodynamic_shape_optimization	aerodynamic shape optimization	topic_design_optimization	design optimization	child_of	2	0.666667	0.816497
+topic_engineering_applications	engineering applications	topic_active_subspaces	active subspaces	child_of	2	0.666667	0.816497
+topic_geometry_for_robotics	geometry for robotics	topic_robotics_and_geometry	Robotics and geometry	child_of	2	0.666667	0.816497
+topic_icme	ICME	topic_materials_design	materials design	child_of	2	0.666667	0.816497
+topic_motion_planning	motion planning	topic_robotics_and_geometry	Robotics and geometry	child_of	2	0.666667	0.816497
+topic_multisource_information_fusion	multisource information fusion	topic_materials_design	materials design	child_of	2	0.666667	0.816497
+topic_parametric_dynamical_systems	parametric dynamical systems	topic_projection_based_model_reduction	projection-based model reduction	child_of	2	0.666667	0.816497
+topic_referenced_neighboring_topics	referenced neighboring topics	topic_robotics_and_geometry	Robotics and geometry	child_of	2	0.666667	0.816497
+topic_shape_optimization	shape optimization	topic_design_optimization	design optimization	child_of	2	0.666667	0.816497
+topic_algebraic_geometry	algebraic geometry	topic_mathematical_structures	Mathematical structures	child_of	2	0.5	0.707107
+topic_bandit_algorithms_for_tree_search	bandit algorithms for tree search	topic_bandit_foundations	bandit foundations	child_of	2	0.5	0.707107
+topic_finite_time_analysis_of_the_multiarmed_bandit_problem	finite-time analysis of the multiarmed bandit problem	topic_bandit_foundations	bandit foundations	child_of	2	0.5	0.707107
+topic_kriging	kriging	topic_gaussian_processes	Gaussian processes	child_of	2	0.5	0.707107
+topic_kriging	kriging	topic_surrogate_models	surrogate models	child_of	2	0.5	0.707107
+topic_multi_armed_bandits_with_episode_context	multi-armed bandits with episode context	topic_bandit_foundations	bandit foundations	child_of	2	0.5	0.707107
+topic_riemannian_geometry	Riemannian geometry	topic_mathematical_structures	Mathematical structures	child_of	2	0.5	0.707107
+topic_high_dimensional_bayesian_optimization	high-dimensional Bayesian optimization	topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	child_of	2	0.4	0.632456
+topic_bayesian_inverse_problems	Bayesian inverse problems	topic_uncertainty_quantification	uncertainty quantification	child_of	2	0.285714	0.534522
+topic_foundational_formulations	foundational formulations	topic_bayesian_optimization	Bayesian optimization	child_of	2	0.285714	0.534522
+topic_hypersonic_propulsion_uncertainty	hypersonic propulsion uncertainty	topic_uncertainty_quantification	uncertainty quantification	child_of	2	0.285714	0.534522
+topic_multidisciplinary_uncertainty	multidisciplinary uncertainty	topic_uncertainty_quantification	uncertainty quantification	child_of	2	0.285714	0.534522
+topic_inverse_problems	inverse problems	topic_numerical_analysis	Numerical analysis	child_of	2	0.2	0.447214
+topic_vision_language_model_agents	vision-language-model agents	topic_foundation_models_and_agents	foundation models and agents	child_of	2	0.2	0.447214
+topic_soft_materials	soft materials	topic_materials_science	materials science	child_of	2	0.181818	0.426401
+topic_abstraction_in_search	abstraction in search	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	2	0.142857	0.377964
+topic_action_space_structure	action-space structure	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	2	0.142857	0.377964
+topic_exploration_strategies	exploration strategies	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	2	0.142857	0.377964
+topic_exploratory_learning	exploratory learning	topic_planning_under_uncertainty	planning under uncertainty	child_of	2	0.142857	0.377964
+topic_reflective_monte_carlo_tree_search	reflective Monte Carlo tree search	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	2	0.142857	0.377964
+topic_generative_modeling	generative modeling	topic_machine_learning_methods	machine learning methods	child_of	2	0.105263	0.324443
+topic_sequential_information_collection	sequential information collection	topic_sequential_decision_making	Sequential decision making	child_of	2	0.1	0.316228
+topic_parallelization_of_sequential_computation	parallelization of sequential computation	topic_machine_learning_and_ai	Machine learning and AI	child_of	2	0.083333	0.288675
+topic_reasoning_and_structured_inference	reasoning and structured inference	topic_machine_learning_and_ai	Machine learning and AI	child_of	2	0.083333	0.288675
+topic_boltzmann_kinetic_theory	Boltzmann kinetic theory	topic_fluids_and_kinetic_theory	fluids and kinetic theory	child_of	1	1.0	1.0
+topic_bucket_elimination	bucket elimination	topic_automated_reasoning	automated reasoning	child_of	1	1.0	1.0
+topic_cahn_hilliard_functional_with_long_range_interactions	Cahn-Hilliard functional with long-range interactions	topic_phase_field_and_free_energy_models	phase-field and free-energy models	child_of	1	1.0	1.0
+topic_calculus_of_variations	calculus of variations	topic_variational_methods	variational methods	child_of	1	1.0	1.0
+topic_computing_active_subspaces_with_monte_carlo	computing active subspaces with Monte Carlo	topic_theory_and_computation	theory and computation	child_of	1	1.0	1.0
+topic_deeppcr	DeepPCR	topic_parallel_neural_operations	parallel neural operations	child_of	1	1.0	1.0
+topic_derivation_of_fluid_equations	derivation of fluid equations	topic_fluids_and_kinetic_theory	fluids and kinetic theory	child_of	1	1.0	1.0
+topic_exact_characterization_for_linear_optimization	exact characterization for linear optimization	topic_decision_focused_optimization	decision-focused optimization	child_of	1	1.0	1.0
+topic_exploration_exploitation_tradeoffs	exploration-exploitation tradeoffs	topic_acquisition_and_value_of_information_methods	acquisition and value-of-information methods	child_of	1	1.0	1.0
+topic_graphs_of_geodesically_convex_sets	graphs of geodesically convex sets	topic_non_euclidean_motion_planning	non-Euclidean motion planning	child_of	1	1.0	1.0
+topic_information_capture_and_reuse	information capture and reuse	topic_information_reuse	information reuse	child_of	1	1.0	1.0
+topic_knowledge_gradient_methods	knowledge-gradient methods	topic_acquisition_and_value_of_information_methods	acquisition and value-of-information methods	child_of	1	1.0	1.0
+topic_knowledge_gradient_policy	knowledge-gradient policy	topic_knowledge_gradient_methods	knowledge-gradient methods	child_of	1	1.0	1.0
+topic_lead_free_perovskite_nanocrystals	lead-free perovskite nanocrystals	topic_functional_materials	functional materials	child_of	1	1.0	1.0
+topic_parallelizing_non_linear_sequential_models	parallelizing non-linear sequential models	topic_parallel_sequence_models	parallel sequence models	child_of	1	1.0	1.0
+topic_phase_field_and_free_energy_models	phase-field and free-energy models	topic_phase_behavior_and_interfaces	phase behavior and interfaces	child_of	1	1.0	1.0
+topic_rigid_body_simulation	rigid-body simulation	topic_simulation_for_planning	simulation for planning	child_of	1	1.0	1.0
+topic_sequential_learning_of_active_subspaces	sequential learning of active subspaces	topic_low_dimensional_structure	low-dimensional structure	child_of	1	1.0	1.0
+topic_theorem_proving	theorem proving	topic_automated_reasoning	automated reasoning	child_of	1	1.0	1.0
+topic_tropical_neural_networks	tropical neural networks	topic_neural_computation	neural computation	child_of	1	1.0	1.0
+topic_what_data_enables_optimal_decisions	what data enables optimal decisions	topic_optimal_decision_data	optimal decision data	child_of	1	1.0	1.0
+topic_agile_robotic_locomotion	agile robotic locomotion	topic_referenced_neighboring_topics	referenced neighboring topics	child_of	1	0.5	0.707107
+topic_automated_reasoning	automated reasoning	topic_reasoning_and_structured_inference	reasoning and structured inference	child_of	1	0.5	0.707107
+topic_bayesian_statistics	Bayesian statistics	topic_sequential_information_collection	sequential information collection	child_of	1	0.5	0.707107
+topic_block_copolymer_self_assembly	block copolymer self-assembly	topic_soft_materials	soft materials	child_of	1	0.5	0.707107
+topic_boltzmann_exploration	Boltzmann exploration	topic_exploration_strategies	exploration strategies	child_of	1	0.5	0.707107
+topic_continuous_action_spaces_with_execution_uncertainty	continuous action spaces with execution uncertainty	topic_action_space_structure	action-space structure	child_of	1	0.5	0.707107
+topic_dexterous_in_hand_manipulation	dexterous in-hand manipulation	topic_referenced_neighboring_topics	referenced neighboring topics	child_of	1	0.5	0.707107
+topic_diffusion_models	diffusion models	topic_generative_modeling	generative modeling	child_of	1	0.5	0.707107
+topic_exoskeletons_and_robotic_hands	exoskeletons and robotic hands	topic_referenced_neighboring_topics	referenced neighboring topics	child_of	1	0.5	0.707107
+topic_knowledge_gradient_methods	knowledge-gradient methods	topic_sequential_information_collection	sequential information collection	child_of	1	0.5	0.707107
+topic_knowledge_gradient_policy	knowledge-gradient policy	topic_sequential_information_collection	sequential information collection	child_of	1	0.5	0.707107
+topic_long_horizon_episodic_robot_planning	long-horizon episodic robot planning	topic_motion_planning	motion planning	child_of	1	0.5	0.707107
+topic_motion_generation	motion generation	topic_geometry_for_robotics	geometry for robotics	child_of	1	0.5	0.707107
+topic_non_euclidean_motion_planning	non-Euclidean motion planning	topic_motion_planning	motion planning	child_of	1	0.5	0.707107
+topic_parallel_neural_operations	parallel neural operations	topic_parallelization_of_sequential_computation	parallelization of sequential computation	child_of	1	0.5	0.707107
+topic_parallel_sequence_models	parallel sequence models	topic_parallelization_of_sequential_computation	parallelization of sequential computation	child_of	1	0.5	0.707107
+topic_piecewise_constant_reconstructions	piecewise-constant reconstructions	topic_bayesian_inverse_problems	Bayesian inverse problems	child_of	1	0.5	0.707107
+topic_probabilistic_reasoning	probabilistic reasoning	topic_reasoning_and_structured_inference	reasoning and structured inference	child_of	1	0.5	0.707107
+topic_probability_tree_state_abstraction	probability tree state abstraction	topic_abstraction_in_search	abstraction in search	child_of	1	0.5	0.707107
+topic_progressive_bias	progressive bias	topic_exploration_strategies	exploration strategies	child_of	1	0.5	0.707107
+topic_progressive_unpruning	progressive unpruning	topic_exploration_strategies	exploration strategies	child_of	1	0.5	0.707107
+topic_rapid_motor_adaptation_for_legged_robots	rapid motor adaptation for legged robots	topic_referenced_neighboring_topics	referenced neighboring topics	child_of	1	0.5	0.707107
+topic_robot_motion_learning	robot motion learning	topic_geometry_for_robotics	geometry for robotics	child_of	1	0.5	0.707107
+topic_symbolic_mechanisms	symbolic mechanisms	topic_reasoning_and_structured_inference	reasoning and structured inference	child_of	1	0.5	0.707107
+topic_tropical_dual_numbers	tropical dual numbers	topic_algebraic_geometry	algebraic geometry	child_of	1	0.5	0.707107
+topic_tropical_neural_networks	tropical neural networks	topic_tropical_geometry	tropical geometry	child_of	1	0.5	0.707107
+topic_variational_autoencoders	variational autoencoders	topic_generative_modeling	generative modeling	child_of	1	0.5	0.707107
+topic_voronoi_optimistic_optimization	Voronoi optimistic optimization	topic_action_space_structure	action-space structure	child_of	1	0.5	0.707107
+topic_decision_focused_optimization	decision-focused optimization	topic_design_optimization	design optimization	child_of	1	0.333333	0.57735
+topic_dual_phase_materials	dual-phase materials	topic_materials_design	materials design	child_of	1	0.333333	0.57735
+topic_graded_tpms_structures	graded TPMS structures	topic_materials_design	materials design	child_of	1	0.333333	0.57735
+topic_gradient_nanostructured_materials	gradient nanostructured materials	topic_materials_design	materials design	child_of	1	0.333333	0.57735
+topic_krylov_subspace_methods	Krylov subspace methods	topic_projection_based_model_reduction	projection-based model reduction	child_of	1	0.333333	0.57735
+topic_low_dimensional_structure	low-dimensional structure	topic_active_subspaces	active subspaces	child_of	1	0.333333	0.57735
+topic_microstructure_sensitive_design	microstructure-sensitive design	topic_materials_design	materials design	child_of	1	0.333333	0.57735
+topic_multi_information_source_fusion	multi-information-source fusion	topic_materials_design	materials design	child_of	1	0.333333	0.57735
+topic_process_structure_property_relationships	process-structure-property relationships	topic_materials_design	materials design	child_of	1	0.333333	0.57735
+topic_science_exocortex	science exocortex	topic_autonomous_agents	autonomous agents	child_of	1	0.333333	0.57735
+topic_simulation_for_planning	simulation for planning	topic_robotics_and_geometry	Robotics and geometry	child_of	1	0.333333	0.57735
+topic_theory_and_computation	theory and computation	topic_active_subspaces	active subspaces	child_of	1	0.333333	0.57735
+topic_foundation_models_for_materials_discovery	foundation models for materials discovery	topic_foundation_models_for_science	foundation models for science	child_of	1	0.25	0.5
+topic_fast_marching_methods	fast marching methods	topic_interface_tracking_methods	interface-tracking methods	child_of	1	0.2	0.447214
+topic_fluid_interfaces	fluid interfaces	topic_level_set_methods	level set methods	child_of	1	0.2	0.447214
+topic_foundation_models_for_materials_discovery	foundation models for materials discovery	topic_materials_discovery	materials discovery	child_of	1	0.2	0.447214
+topic_hybrid_batch_bayesian_optimization	hybrid batch Bayesian optimization	topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	child_of	1	0.2	0.447214
+topic_multi_objective_bayesian_optimization	multi-objective Bayesian optimization	topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	child_of	1	0.2	0.447214
+topic_propagating_interfaces	propagating interfaces	topic_level_set_methods	level set methods	child_of	1	0.2	0.447214
+topic_abstract_reasoning_in_large_language_models	abstract reasoning in large language models	topic_large_language_models	large language models	child_of	1	0.166667	0.408248
+topic_bayesian_optimized_monte_carlo_planning	Bayesian optimized Monte Carlo planning	topic_core_planning_papers	core planning papers	child_of	1	0.166667	0.408248
+topic_game_search	game search	topic_survey_structure	survey structure	child_of	1	0.166667	0.408248
+topic_long_chain_of_thought	long chain-of-thought	topic_large_language_models	large language models	child_of	1	0.166667	0.408248
+topic_acquisition_and_value_of_information_methods	acquisition and value-of-information methods	topic_bayesian_optimization	Bayesian optimization	child_of	1	0.142857	0.377964
+topic_bayesian_optimized_monte_carlo_planning	Bayesian optimized Monte Carlo planning	topic_bayesian_optimization	Bayesian optimization	child_of	1	0.142857	0.377964
+topic_bayesian_statistics	Bayesian statistics	topic_uncertainty_quantification	uncertainty quantification	child_of	1	0.142857	0.377964
+topic_expected_information_gain	expected information gain	topic_uncertainty_quantification	uncertainty quantification	child_of	1	0.142857	0.377964
+topic_likelihood_free_inference	likelihood-free inference	topic_uncertainty_quantification	uncertainty quantification	child_of	1	0.142857	0.377964
+topic_measure_transport	measure transport	topic_uncertainty_quantification	uncertainty quantification	child_of	1	0.142857	0.377964
+topic_functional_materials	functional materials	topic_materials_science	materials science	child_of	1	0.090909	0.301511
+topic_model_based_reinforcement_learning	model-based reinforcement learning	topic_reinforcement_learning	reinforcement learning	child_of	1	0.090909	0.301511
+topic_fluids_and_kinetic_theory	fluids and kinetic theory	topic_physical_sciences_and_continuum_systems	Physical sciences and continuum systems	child_of	1	0.083333	0.288675
+topic_phase_behavior_and_interfaces	phase behavior and interfaces	topic_physical_sciences_and_continuum_systems	Physical sciences and continuum systems	child_of	1	0.083333	0.288675
+topic_information_reuse	information reuse	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	1	0.071429	0.267261
+topic_neural_computation	neural computation	topic_machine_learning_methods	machine learning methods	child_of	1	0.052632	0.229416
+topic_variational_methods	variational methods	topic_optimization	Optimization	child_of	1	0.052632	0.229416
+topic_optimal_decision_data	optimal decision data	topic_sequential_decision_making	Sequential decision making	child_of	1	0.05	0.223607
+topic_active_subspace_methods_for_kriging_surfaces	active subspace methods for kriging surfaces	topic_theory_and_computation	theory and computation	child_of	0	0.0	0.0
+topic_active_subspace_materials_design	active-subspace materials design	topic_engineering_applications	engineering applications	child_of	0	0.0	0.0
+topic_adaptive_active_subspaces	adaptive active subspaces	topic_low_dimensional_structure	low-dimensional structure	child_of	0	0.0	0.0
+topic_adaptive_dimensionality_reduction_for_sequential_optimization	adaptive dimensionality reduction for sequential optimization	topic_gaussian_process_bayesian_optimization	Gaussian-process Bayesian optimization	child_of	0	0.0	0.0
+topic_analysis_of_pdes	analysis of PDEs	topic_mathematical_structures	Mathematical structures	child_of	0	0.0	0.0
+topic_backpropagation_complexity	backpropagation complexity	topic_neural_computation	neural computation	child_of	0	0.0	0.0
+topic_balanced_truncation	balanced truncation	topic_projection_based_model_reduction	projection-based model reduction	child_of	0	0.0	0.0
+topic_batched_simulation	batched simulation	topic_simulation_for_planning	simulation for planning	child_of	0	0.0	0.0
+topic_bayesian_model_averaging_for_materials_discovery	Bayesian model averaging for materials discovery	topic_materials_discovery	materials discovery	child_of	0	0.0	0.0
+topic_cahn_hilliard_equation	Cahn-Hilliard equation	topic_phase_field_and_free_energy_models	phase-field and free-energy models	child_of	0	0.0	0.0
+topic_chain_of_thought_theory	chain-of-thought theory	topic_large_language_models	large language models	child_of	0	0.0	0.0
+topic_clutter_retrieval	clutter retrieval	topic_simulation_for_planning	simulation for planning	child_of	0	0.0	0.0
+topic_compressor_blade_geometric_variability	compressor blade geometric variability	topic_aerodynamic_shape_optimization	aerodynamic shape optimization	child_of	0	0.0	0.0
+topic_compressor_blade_geometric_variability	compressor blade geometric variability	topic_manufacturing_variability	manufacturing variability	child_of	0	0.0	0.0
+topic_data_driven_materials_discovery	data-driven materials discovery	topic_materials_discovery	materials discovery	child_of	0	0.0	0.0
+topic_diblock_copolymer_microphase_separation	diblock copolymer microphase separation	topic_soft_materials	soft materials	child_of	0	0.0	0.0
+topic_distributed_and_parallel_scientific_computing	distributed and parallel scientific computing	topic_parallelization_of_sequential_computation	parallelization of sequential computation	child_of	0	0.0	0.0
+topic_doubly_robust_mcts	doubly robust MCTS	topic_robustness_and_estimation	robustness and estimation	child_of	0	0.0	0.0
+topic_embodied_planning	embodied planning	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	0	0.0	0.0
+topic_euler_equations	Euler equations	topic_variational_methods	variational methods	child_of	0	0.0	0.0
+topic_exact_inference_in_belief_networks	exact inference in belief networks	topic_automated_reasoning	automated reasoning	child_of	0	0.0	0.0
+topic_exact_inference_in_constraint_networks	exact inference in constraint networks	topic_automated_reasoning	automated reasoning	child_of	0	0.0	0.0
+topic_factor_prioritization	factor prioritization	topic_sensitivity_analysis	sensitivity analysis	child_of	0	0.0	0.0
+topic_free_boundary_formulations	free-boundary formulations	topic_interface_tracking_methods	interface-tracking methods	child_of	0	0.0	0.0
+topic_gaussian_process_bayesian_optimization	Gaussian-process Bayesian optimization	topic_bayesian_optimization	Bayesian optimization	child_of	0	0.0	0.0
+topic_gaussian_process_bayesian_optimization	Gaussian-process Bayesian optimization	topic_gaussian_processes	Gaussian processes	child_of	0	0.0	0.0
+topic_geometry_informed_learning	geometry-informed learning	topic_mathematical_structures	Mathematical structures	child_of	0	0.0	0.0
+topic_graphical_model_inference	graphical-model inference	topic_reasoning_and_structured_inference	reasoning and structured inference	child_of	0	0.0	0.0
+topic_greedy_algorithms	greedy algorithms	topic_projection_based_model_reduction	projection-based model reduction	child_of	0	0.0	0.0
+topic_hamilton_jacobi_equations	Hamilton-Jacobi equations	topic_level_set_methods	level set methods	child_of	0	0.0	0.0
+topic_hidden_information_games	hidden-information games	topic_information_reuse	information reuse	child_of	0	0.0	0.0
+topic_hilbert_s_sixth_problem	Hilbert's sixth problem	topic_fluids_and_kinetic_theory	fluids and kinetic theory	child_of	0	0.0	0.0
+topic_humanoids_and_quadrupeds	humanoids and quadrupeds	topic_referenced_neighboring_topics	referenced neighboring topics	child_of	0	0.0	0.0
+topic_interpolation	interpolation	topic_projection_based_model_reduction	projection-based model reduction	child_of	0	0.0	0.0
+topic_inverse_design_for_precipitation_heat_treatments	inverse design for precipitation heat treatments	topic_materials_design	materials design	child_of	0	0.0	0.0
+topic_junction_tree_style_decompositions	junction-tree style decompositions	topic_automated_reasoning	automated reasoning	child_of	0	0.0	0.0
+topic_manufacturing_variability	manufacturing variability	topic_materials_design	materials design	child_of	0	0.0	0.0
+topic_manufacturing_variability	manufacturing variability	topic_uncertainty_quantification	uncertainty quantification	child_of	0	0.0	0.0
+topic_markov_chain_monte_carlo_for_inverse_problems	Markov chain Monte Carlo for inverse problems	topic_bayesian_inverse_problems	Bayesian inverse problems	child_of	0	0.0	0.0
+topic_markov_chain_monte_carlo_for_inverse_problems	Markov chain Monte Carlo for inverse problems	topic_inverse_problems	inverse problems	child_of	0	0.0	0.0
+topic_mathematical_physics	mathematical physics	topic_mathematical_structures	Mathematical structures	child_of	0	0.0	0.0
+topic_multimodal_learning	multimodal learning	topic_machine_learning_methods	machine learning methods	child_of	0	0.0	0.0
+topic_multiphase_flow	multiphase flow	topic_phase_behavior_and_interfaces	phase behavior and interfaces	child_of	0	0.0	0.0
+topic_nested_subspace_bayesian_optimization	nested subspace Bayesian optimization	topic_batch_and_parallel_bayesian_optimization	batch and parallel Bayesian optimization	child_of	0	0.0	0.0
+topic_nonlocal_cahn_hilliard_functional	nonlocal Cahn-Hilliard functional	topic_phase_field_and_free_energy_models	phase-field and free-energy models	child_of	0	0.0	0.0
+topic_ohta_kawasaki_model	Ohta-Kawasaki model	topic_soft_materials	soft materials	child_of	0	0.0	0.0
+topic_one_dimensional_active_subspaces	one-dimensional active subspaces	topic_low_dimensional_structure	low-dimensional structure	child_of	0	0.0	0.0
+topic_parallel_mcts_with_batched_rigid_body_simulations	parallel MCTS with batched rigid-body simulations	topic_batched_simulation	batched simulation	child_of	0	0.0	0.0
+topic_parallel_mcts_with_batched_rigid_body_simulations	parallel MCTS with batched rigid-body simulations	topic_embodied_planning	embodied planning	child_of	0	0.0	0.0
+topic_petrov_galerkin_projection	Petrov-Galerkin projection	topic_projection_based_model_reduction	projection-based model reduction	child_of	0	0.0	0.0
+topic_phase_diagrams	phase diagrams	topic_phase_behavior_and_interfaces	phase behavior and interfaces	child_of	0	0.0	0.0
+topic_practical_bayesian_optimization_for_hyperparameter_tuning	practical Bayesian optimization for hyperparameter tuning	topic_gaussian_process_bayesian_optimization	Gaussian-process Bayesian optimization	child_of	0	0.0	0.0
+topic_proof_number_based_mcts	proof-number-based MCTS	topic_proof_oriented_search	proof-oriented search	child_of	0	0.0	0.0
+topic_proof_oriented_search	proof-oriented search	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	0	0.0	0.0
+topic_proper_orthogonal_decomposition	proper orthogonal decomposition	topic_projection_based_model_reduction	projection-based model reduction	child_of	0	0.0	0.0
+topic_pure_exploration_in_batch_settings	pure exploration in batch settings	topic_exploration_strategies	exploration strategies	child_of	0	0.0	0.0
+topic_ranking_and_selection	ranking and selection	topic_sequential_information_collection	sequential information collection	child_of	0	0.0	0.0
+topic_representation_learning	representation learning	topic_machine_learning_methods	machine learning methods	child_of	0	0.0	0.0
+topic_response_surfaces	response surfaces	topic_surrogate_models	surrogate models	child_of	0	0.0	0.0
+topic_robot_motion_control	robot motion control	topic_geometry_for_robotics	geometry for robotics	child_of	0	0.0	0.0
+topic_robot_planning_in_clutter	robot planning in clutter	topic_motion_planning	motion planning	child_of	0	0.0	0.0
+topic_robustness_and_estimation	robustness and estimation	topic_monte_carlo_tree_search	Monte Carlo tree search	child_of	0	0.0	0.0
+topic_satellite_uncertainty_quantification	satellite uncertainty quantification	topic_engineering_applications	engineering applications	child_of	0	0.0	0.0
+topic_satellite_uncertainty_quantification	satellite uncertainty quantification	topic_multidisciplinary_uncertainty	multidisciplinary uncertainty	child_of	0	0.0	0.0
+topic_scientific_machine_learning	scientific machine learning	topic_machine_learning_methods	machine learning methods	child_of	0	0.0	0.0
+topic_scramjet_uncertainty_quantification	scramjet uncertainty quantification	topic_engineering_applications	engineering applications	child_of	0	0.0	0.0
+topic_scramjet_uncertainty_quantification	scramjet uncertainty quantification	topic_hypersonic_propulsion_uncertainty	hypersonic propulsion uncertainty	child_of	0	0.0	0.0
+topic_self_driving_laboratories	self-driving laboratories	topic_autonomous_agents	autonomous agents	child_of	0	0.0	0.0
+topic_self_driving_laboratories	self-driving laboratories	topic_materials_discovery	materials discovery	child_of	0	0.0	0.0
+topic_self_learning_from_search_traces	self-learning from search traces	topic_autonomous_agents	autonomous agents	child_of	0	0.0	0.0
+topic_sequence_length_parallelism	sequence-length parallelism	topic_parallelization_of_sequential_computation	parallelization of sequential computation	child_of	0	0.0	0.0
+topic_sequential_decision_analysis	sequential decision analysis	topic_sequential_information_collection	sequential information collection	child_of	0	0.0	0.0
+topic_spectral_simulation_of_the_phase_diagram	spectral simulation of the phase diagram	topic_phase_diagrams	phase diagrams	child_of	0	0.0	0.0
+topic_test_time_search_for_agents	test-time search for agents	topic_exploratory_learning	exploratory learning	child_of	0	0.0	0.0
+topic_transonic_airfoil_manufacturing_error	transonic airfoil manufacturing error	topic_aerodynamic_shape_optimization	aerodynamic shape optimization	child_of	0	0.0	0.0
+topic_transonic_airfoil_manufacturing_error	transonic airfoil manufacturing error	topic_manufacturing_variability	manufacturing variability	child_of	0	0.0	0.0
+topic_transonic_wing_design	transonic wing design	topic_aerodynamic_shape_optimization	aerodynamic shape optimization	child_of	0	0.0	0.0
+topic_transonic_wing_design	transonic wing design	topic_engineering_applications	engineering applications	child_of	0	0.0	0.0
+topic_tutorial_bayesian_optimization	tutorial Bayesian optimization	topic_foundational_formulations	foundational formulations	child_of	0	0.0	0.0
+topic_uncertainty_guided_fine_tuning_for_molecular_design	uncertainty-guided fine-tuning for molecular design	topic_variational_autoencoders	variational autoencoders	child_of	0	0.0	0.0
+topic_upper_confidence_bounds	upper confidence bounds	topic_survey_structure	survey structure	child_of	0	0.0	0.0
+topic_upper_confidence_bounds_for_trees	upper confidence bounds for trees	topic_survey_structure	survey structure	child_of	0	0.0	0.0
+topic_variance_based_sensitivity_analysis	variance-based sensitivity analysis	topic_sensitivity_analysis	sensitivity analysis	child_of	0	0.0	0.0
